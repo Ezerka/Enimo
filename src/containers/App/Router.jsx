@@ -5,6 +5,7 @@ import MainWrapper from './Wrapper';
 
 import Helloworld from '../page1/index';
 import HelloSecondPage from '../page2/index'
+import OpenDashboard from '../OpenDashboard/index'
 
 const Pages = () => (
     <Switch>
@@ -27,8 +28,7 @@ const Router = () => (
     <MainWrapper>
         <main>
             <Switch>
-                <Route exact path="/" component={Helloworld}/>
-                
+                <Route exact path="/" component={OpenDashboard}/>
                 <Route path="/" component={wrappedRoutes}/>
             </Switch>
         </main>

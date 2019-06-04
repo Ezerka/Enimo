@@ -18,14 +18,18 @@ class Topbar extends PureComponent {
         const {modifyMobileSidebarVisibility, modifySidebarVisibility} = this.props;
         
         return (
-            <div>
-                <TopbarSidebarButton
-                    changeMobileSidebarVisibility={modifyMobileSidebarVisibility}
-                    changeSidebarVisibility={modifySidebarVisibility}
-                />
-                
-                <div>
-                    <TopbarProfile/>
+            <div className="topbar">
+                <div className="topbar__wrapper">
+                    <div className="topbar__left">
+                        <TopbarSidebarButton
+                            modifyMobileSidebarVisibility={modifyMobileSidebarVisibility}
+                            modifySidebarVisibility={modifySidebarVisibility}
+                        />
+                        <Link className="topbar__logo" to="/pages/one"/>
+                    </div>
+                    <div className="topbar__right">
+                        <TopbarProfile/>
+                    </div>
                 </div>
             </div>
         );
@@ -85,22 +89,21 @@ class TopbarMenuLink extends PureComponent {
 }
 
 
-
 class TopbarSidebarButton extends PureComponent {
     static propTypes = {
-        changeMobileSidebarVisibility: PropTypes.func.isRequired,
-        changeSidebarVisibility: PropTypes.func.isRequired,
+        modifyMobileSidebarVisibility: PropTypes.func.isRequired,
+        modifySidebarVisibility: PropTypes.func.isRequired,
     };
     
     render() {
-        const {changeMobileSidebarVisibility, changeSidebarVisibility} = this.props;
+        const {modifyMobileSidebarVisibility, modifySidebarVisibility} = this.props;
         
         return (
             <div>
-                <button type="button" onClick={changeSidebarVisibility}>
+                <button type="button" onClick={modifySidebarVisibility}>
                     <img src={icon} alt=""/>
                 </button>
-                <button type="button" onClick={changeMobileSidebarVisibility}>
+                <button type="button" onClick={modifyMobileSidebarVisibility}>
                     <img src={icon} alt=""/>
                 </button>
             </div>
