@@ -66,6 +66,7 @@ const resolveModule = (resolveFn, filePath) => {
 };
 
 // config after eject: we're in ./config/
+//TODO:Change the file names in the directory
 module.exports = {
     dotenv: resolveApp('.env'),
     appPath: resolveApp('.'),
