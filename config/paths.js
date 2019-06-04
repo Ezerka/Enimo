@@ -66,20 +66,19 @@ const resolveModule = (resolveFn, filePath) => {
 };
 
 // config after eject: we're in ./config/
-//TODO:Change the file names in the directory
 module.exports = {
     dotenv: resolveApp('.env'),
     appPath: resolveApp('.'),
     appBuild: resolveApp('build'),
     appPublic: resolveApp('public'),
     appHtml: resolveApp('public/index.html'),
-    appIndexJs: resolveModule(resolveApp, 'src/index'),
+    appIndexJs: resolveApp('src/index.jsx'),
     appPackageJson: resolveApp('package.json'),
     appSrc: resolveApp('src'),
     appTsConfig: resolveApp('tsconfig.json'),
     appJsConfig: resolveApp('jsconfig.json'),
     yarnLockFile: resolveApp('yarn.lock'),
-    testsSetup: resolveModule(resolveApp, 'src/setupTests'),
+    testsSetup: resolveApp('src/setupTests.js'),
     proxySetup: resolveApp('src/setupProxy.js'),
     appNodeModules: resolveApp('node_modules'),
     publicUrl: getPublicUrl(resolveApp('package.json')),
