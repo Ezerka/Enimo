@@ -6,7 +6,7 @@ import {SidebarProps} from '../../../shared/proptypes/ReducerProps';
 import {NavLink} from 'react-router-dom';
 import {Badge, Collapse} from 'reactstrap';
 
-const Sidebar = ({changeToDark, changeToLight, changeMobileSidebarVisibility, sidebar,}) => {
+const Sidebar = ({changeToDark, changeToLight, modifyMobileSidebarVisibility, sidebar,}) => {
     const sidebarClass = classNames({
         sidebar: true,
         'sidebar--show': sidebar.show,
@@ -15,7 +15,7 @@ const Sidebar = ({changeToDark, changeToLight, changeMobileSidebarVisibility, si
     
     return (
         <div>
-            <button type="button" onClick={changeMobileSidebarVisibility}/>
+            <button type="button" onClick={modifyMobileSidebarVisibility}/>
             <Scrollbar>
                 <div>
                     <SidebarContent
@@ -27,7 +27,7 @@ const Sidebar = ({changeToDark, changeToLight, changeMobileSidebarVisibility, si
                 </div>
                 <div>
                     <SidebarContent
-                        onClick={changeMobileSidebarVisibility}
+                        onClick={modifyMobileSidebarVisibility}
                         changeToDark={changeToDark}
                         changeToLight={changeToLight}
                     />

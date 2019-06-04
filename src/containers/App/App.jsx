@@ -1,14 +1,22 @@
 import React from "react";
 import {hot} from "react-hot-loader";
-import Helloworld from "../HelloPage/Helloworld"
+import {Provider} from 'react-redux';
+import store from './store';
+import Router from './Router'
+import {BrowserRouter} from "react-router-dom";
+
 
 class App extends React.Component {
     
     render() {
         return (
-            <div>
-                <Helloworld/>
-            </div>
+            <Provider store={store}>
+                <BrowserRouter>
+                    <div>
+                        <Router/>
+                    </div>
+                </BrowserRouter>
+            </Provider>
         )
     }
 }
