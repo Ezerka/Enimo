@@ -4,6 +4,7 @@ import {Provider} from 'react-redux';
 import store from './store';
 import Router from './Router'
 import {BrowserRouter} from "react-router-dom";
+import '../../scss/index.scss';
 
 
 class App extends React.Component {
