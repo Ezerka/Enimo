@@ -1,6 +1,6 @@
 import React from "react";
 import {hot} from "react-hot-loader";
-import Helloworld from "./Helloworld"
+import Helloworld from "../HelloPage/Helloworld"
 
 class App extends React.Component {
     

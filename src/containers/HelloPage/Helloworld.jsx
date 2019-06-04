@@ -1,6 +1,6 @@
 import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
-import SampleCardView from './CardView';
+import SampleCardView from './components/CardView';
 
 const Helloworld = () => (
     <Container className="dashboard">
