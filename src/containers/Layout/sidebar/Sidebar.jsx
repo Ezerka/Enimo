@@ -41,7 +41,7 @@ Sidebar.propTypes = {
     sidebar: SidebarProps.isRequired,
     changeToDark: PropTypes.func.isRequired,
     changeToLight: PropTypes.func.isRequired,
-    changeMobileSidebarVisibility: PropTypes.func.isRequired,
+    modifyMobileSidebarVisibility: PropTypes.func.isRequired,
 };
 
 class SidebarContent extends React.Component {
