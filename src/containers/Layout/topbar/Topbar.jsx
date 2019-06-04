@@ -2,6 +2,8 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import DownIcon from 'mdi-react/ChevronDownIcon';
 import {Collapse} from 'reactstrap';
+import {Link} from 'react-router-dom';
+
 
 const icon = `${process.env.PUBLIC_URL}/img/icon_exit.svg`;
 const profileImage = `${process.env.PUBLIC_URL}/img/profile.png`;
@@ -44,21 +46,44 @@ class TopbarProfile extends PureComponent {
         
         return (
             <div>
-                <button onClick={this.toggle}>
-                    <img src={profileImage} alt="Profile Image"/>
+                <button type="button" onClick={this.toggle}>
+                    <img src={profileImage} alt="avatar"/>
                     <p>Ashfaq Nisar</p>
                     <DownIcon/>
                 </button>
                 {collapse && <button type="button" onClick={this.toggle}/>}
                 <Collapse isOpen={collapse}>
                     <div>
+                        <TopbarMenuLink title="Page one" icon="list" path="/pages/one"/>
+                        <TopbarMenuLink title="Page two" icon="inbox" path="/pages/two"/>
                         <div/>
+                        <TopbarMenuLink title="Log Out" icon="exit" path="/"/>
                     </div>
                 </Collapse>
             </div>
         );
     }
 }
+
+class TopbarMenuLink extends PureComponent {
+    static propTypes = {
+        title: PropTypes.string.isRequired,
+        icon: PropTypes.string.isRequired,
+        path: PropTypes.string.isRequired,
+    };
+    
+    render() {
+        const {title, icon, path} = this.props;
+        
+        return (
+            <Link className="topbar__link" to={path}>
+                <span className={`topbar__link-icon lnr lnr-${icon}`}/>
+                <p className="topbar__link-title">{title}</p>
+            </Link>
+        );
+    }
+}
+
 
 
 class TopbarSidebarButton extends PureComponent {
