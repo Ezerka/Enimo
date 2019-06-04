@@ -49,22 +49,23 @@ class TopbarProfile extends PureComponent {
         const {collapse} = this.state;
         
         return (
-            <div>
-                <button type="button" onClick={this.toggle}>
-                    <img src={profileImage} alt="avatar"/>
-                    <p>Ashfaq Nisar</p>
-                    <DownIcon/>
+            <div className="topbar__profile">
+                <button type="button" className="topbar__avatar" onClick={this.toggle}>
+                    <img className="topbar__avatar-img" src={profileImage} alt="avatar"/>
+                    <p className="topbar__avatar-name">Ashfaq Nisar</p>
+                    <DownIcon className="topbar__icon"/>
                 </button>
-                {collapse && <button type="button" onClick={this.toggle}/>}
-                <Collapse isOpen={collapse}>
-                    <div>
+                {collapse && <button type="button" className="topbar__back" onClick={this.toggle}/>}
+                <Collapse isOpen={collapse} className="topbar__menu-wrap">
+                    <div className="topbar__menu">
                         <TopbarMenuLink title="Page one" icon="list" path="/pages/one"/>
                         <TopbarMenuLink title="Page two" icon="inbox" path="/pages/two"/>
-                        <div/>
+                        <div className="topbar__menu-divider"/>
                         <TopbarMenuLink title="Log Out" icon="exit" path="/"/>
                     </div>
                 </Collapse>
             </div>
+
         );
     }
 }
@@ -100,11 +101,13 @@ class TopbarSidebarButton extends PureComponent {
         
         return (
             <div>
-                <button type="button" onClick={modifySidebarVisibility}>
-                    <img src={icon} alt=""/>
+                <button type="button" className="topbar__button topbar__button--desktop"
+                        onClick={modifySidebarVisibility}>
+                    <img src={icon} alt="" className="topbar__button-icon"/>
                 </button>
-                <button type="button" onClick={modifyMobileSidebarVisibility}>
-                    <img src={icon} alt=""/>
+                <button type="button" className="topbar__button topbar__button--mobile"
+                        onClick={modifyMobileSidebarVisibility}>
+                    <img src={icon} alt="" className="topbar__button-icon"/>
                 </button>
             </div>
         );

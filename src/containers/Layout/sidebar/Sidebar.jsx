@@ -14,10 +14,10 @@ const Sidebar = ({changeToDark, changeToLight, modifyMobileSidebarVisibility, si
     });
     
     return (
-        <div>
-            <button type="button" onClick={modifyMobileSidebarVisibility}/>
-            <Scrollbar>
-                <div>
+        <div className={sidebarClass}>
+            <button type="button" className="sidebar__back" onClick={modifyMobileSidebarVisibility}/>
+            <Scrollbar className="sidebar__scroll scroll">
+                <div className="sidebar__wrapper sidebar__wrapper--desktop">
                     <SidebarContent
                         onClick={() => {
                         }}
@@ -25,7 +25,7 @@ const Sidebar = ({changeToDark, changeToLight, modifyMobileSidebarVisibility, si
                         changeToLight={changeToLight}
                     />
                 </div>
-                <div>
+                <div className="sidebar__wrapper sidebar__wrapper--mobile">
                     <SidebarContent
                         onClick={modifyMobileSidebarVisibility}
                         changeToDark={changeToDark}
@@ -59,22 +59,22 @@ class SidebarContent extends React.Component {
     render() {
         const {changeToDark, changeToLight} = this.props;
         return (
-            <div>
-                <ul>
+            <div className="sidebar__content">
+                <ul className="sidebar__block">
                     <SidebarLink title="Log In" icon="exit" route="/log_in" onClick={this.hideSidebar}/>
                     <SidebarCategory title="Layout" icon="layers">
-                        <button type="button" onClick={changeToLight}>
-                            <p>Light Theme</p>
+                        <button type="button" className="sidebar__link" onClick={changeToLight}>
+                            <p className="sidebar__link-title">Light Theme</p>
                         </button>
-                        <button type="button" onClick={changeToDark}>
-                            <p>Dark Theme</p>
+                        <button type="button" className="sidebar__link" onClick={changeToDark}>
+                            <p className="sidebar__link-title">Dark Theme</p>
                         </button>
                     </SidebarCategory>
                 </ul>
-                <ul>
-                    <SidebarCategory title=" Pages" icon="diamond">
-                        <SidebarLink title="First Page" route="/pages/one" onClick={this.hideSidebar}/>
-                        <SidebarLink title="Second Page" route="/pages/two" onClick={this.hideSidebar}/>
+                <ul className="sidebar__block">
+                    <SidebarCategory title="Example Pages" icon="diamond">
+                        <SidebarLink title="Page one" route="/pages/one" onClick={this.hideSidebar}/>
+                        <SidebarLink title="Page two" route="/pages/two" onClick={this.hideSidebar}/>
                     </SidebarCategory>
                 </ul>
             </div>
@@ -90,11 +90,11 @@ const SidebarLink = ({
         onClick={onClick}
         activeClassName="sidebar__link-active"
     >
-        <li>
-            {icon ? <span/> : ''}
-            <p>
+        <li className="sidebar__link">
+            {icon ? <span className={`sidebar__link-icon lnr lnr-${icon}`}/> : ''}
+            <p className="sidebar__link-title">
                 {title}
-                {newLink ? <Badge><span>New</span></Badge> : ''}
+                {newLink ? <Badge className="sidebar__link-badge"><span>New</span></Badge> : ''}
             </p>
         </li>
     </NavLink>
@@ -149,15 +149,15 @@ class SidebarCategory extends React.Component {
         
         return (
             <div className={categoryClass}>
-                <button type="button" onClick={this.toggle}>
-                    {icon ? <span/> : ''}
-                    <p>{title}
-                        {isNew && <span/>}
+                <button type="button" className="sidebar__link sidebar__category" onClick={this.toggle}>
+                    {icon ? <span className={`sidebar__link-icon lnr lnr-${icon}`}/> : ''}
+                    <p className="sidebar__link-title">{title}
+                        {isNew && <span className="sidebar__category-new"/>}
                     </p>
-                    <span/>
+                    <span className="sidebar__category-icon lnr lnr-chevron-right"/>
                 </button>
-                <Collapse isOpen={collapse}>
-                    <ul>
+                <Collapse isOpen={collapse} className="sidebar__submenu-wrap">
+                    <ul className="sidebar__submenu">
                         <div>
                             {children}
                         </div>
