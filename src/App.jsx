@@ -1,13 +1,16 @@
 import React from "react";
+import {hot} from "react-hot-loader";
+import Helloworld from "./Helloworld"
 
 class App extends React.Component {
+    
     render() {
         return (
             <div>
-                Hello World
+                <Helloworld/>
             </div>
         )
     }
 }
 
-export default App
+export default hot(module)(App) //HMR(Module can be updated without the need for full refresh)
