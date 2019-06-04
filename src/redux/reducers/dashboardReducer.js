@@ -1,7 +1,7 @@
 import {COLOR_TO_DARK, COLOR_TO_LIGHT,} from '../actions/dashboardActions';
 
 const initialState = {
-    className: 'theme-light',
+    className: 'theme-dark',
 };
 
 export default function (state = initialState, action) {
