@@ -7,7 +7,7 @@ const Helloworld = () => (
     <Container className="dashboard">
         <Row>
             <Col md={12}>
-                <h3 className="page-title">Page One</h3>
+                <h3 className="page-title">First Page</h3>
             </Col>
         </Row>
         <Row>

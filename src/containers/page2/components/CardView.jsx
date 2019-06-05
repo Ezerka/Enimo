@@ -6,10 +6,10 @@ const CardView = () => (
         <Card>
             <CardBody>
                 <div className="card__title">
-                    <h5 className="bold-text">Example title</h5>
-                    <h5 className="subhead">Example subhead</h5>
+                    <h5 className="bold-text">Page Two</h5>
+                    <h5 className="subhead">Page Two Subheading </h5>
                 </div>
-                <p>Your content here</p>
+                <p>Page 2 Content</p>
             </CardBody>
         </Card>
     </Col>
