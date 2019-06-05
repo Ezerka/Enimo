@@ -5,7 +5,7 @@ import MainWrapper from './Wrapper';
 
 import Helloworld from '../page1/index';
 import HelloSecondPage from '../page2/index'
-import OpenDashboard from '../OpenDashboard/index'
+import Home from '../Home/index'
 
 const Pages = () => (
     <Switch>
@@ -23,12 +23,20 @@ const wrappedRoutes = () => (
         </div>
     </div>
 );
+const HomeDashboard = () => (
+    <div>
+        <Layout/>
+        <div className={"container__wrap"}>
+            <Route exact path="/" component={Home}/>
+        </div>
+    </div>
+);
 
 const Router = () => (
     <MainWrapper>
         <main>
             <Switch>
-                <Route exact path="/" component={OpenDashboard}/>
+                <Route exact path="/" component={HomeDashboard}/>
                 <Route path="/" component={wrappedRoutes}/>
             </Switch>
         </main>

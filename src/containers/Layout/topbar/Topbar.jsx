@@ -25,7 +25,7 @@ class Topbar extends PureComponent {
                             modifyMobileSidebarVisibility={modifyMobileSidebarVisibility}
                             modifySidebarVisibility={modifySidebarVisibility}
                         />
-                        <Link className="topbar__logo" to="/pages/one"/>
+                        <Link className="topbar__logo" to="/"/>
                     </div>
                     <div className="topbar__right">
                         <TopbarProfile/>

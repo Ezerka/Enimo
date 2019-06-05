@@ -17,7 +17,7 @@ class App extends React.Component {
     componentDidMount() {
         window.addEventListener('load', () => {
             this.setState({loading: false});
-            setTimeout(() => this.setState({loaded: true}), 4000)
+            setTimeout(() => this.setState({loaded: true}), 2000)
         })
     }
     
