@@ -5,7 +5,7 @@ import {Collapse} from 'reactstrap';
 import {Link} from 'react-router-dom';
 
 
-const icon = `${process.env.PUBLIC_URL}/img/icon_exit.svg`;
+const icon = `${process.env.PUBLIC_URL}/img/icon_navigation.svg`;
 const profileImage = `${process.env.PUBLIC_URL}/img/profile.png`;
 
 class Topbar extends PureComponent {

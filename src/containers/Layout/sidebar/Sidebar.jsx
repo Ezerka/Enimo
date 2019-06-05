@@ -61,7 +61,7 @@ class SidebarContent extends React.Component {
         return (
             <div className="sidebar__content">
                 <ul className="sidebar__block">
-                    <SidebarLink title="Log In" icon="exit" route="/log_in" onClick={this.hideSidebar}/>
+                    <SidebarLink title="Test" icon="exit" route="/test" onClick={this.hideSidebar}/>
                     <SidebarCategory title="Layout" icon="layers">
                         <button type="button" className="sidebar__link" onClick={changeToLight}>
                             <p className="sidebar__link-title">Light Theme</p>
@@ -72,7 +72,7 @@ class SidebarContent extends React.Component {
                     </SidebarCategory>
                 </ul>
                 <ul className="sidebar__block">
-                    <SidebarCategory title="Example Pages" icon="diamond">
+                    <SidebarCategory title="Sample Pages" icon="book">
                         <SidebarLink title="Page one" route="/pages/one" onClick={this.hideSidebar}/>
                         <SidebarLink title="Page two" route="/pages/two" onClick={this.hideSidebar}/>
                     </SidebarCategory>
