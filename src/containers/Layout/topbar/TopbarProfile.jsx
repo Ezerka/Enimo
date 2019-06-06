@@ -3,6 +3,8 @@ import {Collapse} from "reactstrap";
 import React, {PureComponent} from 'react';
 import TopbarMenu from './TopbarMenu'
 
+const profileImage = `${process.env.PUBLIC_URL}/img/profile.png`;
+
 class TopbarProfile extends PureComponent {
     state = {
         collapse: false
