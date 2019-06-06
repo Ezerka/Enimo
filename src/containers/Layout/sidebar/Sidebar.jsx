@@ -73,8 +73,8 @@ class SidebarContent extends React.Component {
                 </ul>
                 <ul className="sidebar__block">
                     <SidebarCategory title="Sample Pages" icon="book">
-                        <SidebarLink title="Page one" route="/pages/one" onClick={this.hideSidebar}/>
-                        <SidebarLink title="Page two" route="/pages/two" onClick={this.hideSidebar}/>
+                        <SidebarLink title="Page one" route="/one" onClick={this.hideSidebar}/>
+                        <SidebarLink title="Page two" route="/two" onClick={this.hideSidebar}/>
                     </SidebarCategory>
                 </ul>
             </div>
