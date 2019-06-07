@@ -116,20 +116,15 @@
     line-height: 15px;
 }
 
-.login__forgot-password {
+a.login__forgot-password {
     position: absolute;
-    font-size: 11px;
-    line-height: 15px;
-    bottom: -18px;
     right: 0;
+    color: $color-white;
+    margin: 0 0 0.5rem;
 
-    a {
-        color: $color-blue;
-
-        &:hover {
-            color: $color-blue-hover;
-            text-decoration: none;
-        }
+    &:hover {
+        color: $color-red;
+        text-decoration: none;
     }
 }
 

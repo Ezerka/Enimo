@@ -100,17 +100,17 @@
   }
 
   &.btn-secondary {
-    background-color: #e7e2e2;
-    border-color: #e7e2e2;
-    color: #646777;
+      background-color: $color-white;
+      border-color: $color-white;
+      color: $color-black;
 
     &:before {
-      background-color: darken(#e7e2e2, 10%);
+        background-color: darken(#ffffff, 10%);
     }
 
     &:hover, &:focus, &:active, &:active:focus {
-      border-color: darken(#e7e2e2, 10%);
-      color: #646777;
+        border-color: darken(#ffffff, 10%);
+        color: $color-black;
     }
 
     &:not([disabled]):not(.disabled):active, &:not([disabled]):not(.disabled).active {
@@ -120,13 +120,10 @@
   }
 
   &.btn-outline-secondary {
-    border-color: #e7e2e2;
+      border-color: $color-white;
 
     &, p {
-
-      @include themify($themes) {
-        color: themed('colorText');
-      }
+        color: $color-white;
     }
 
     svg {
@@ -137,13 +134,13 @@
     }
 
     &:before {
-      background-color: #e7e2e2;
+        background-color: $color-white;
     }
 
     &:hover, &:focus, &:active, &:active:focus {
       background: transparent;
-      border-color: #e7e2e2;
-      color: #444444;
+        border-color: $color-white;
+        color: $color-black;
 
       p {
         color: #444444;
