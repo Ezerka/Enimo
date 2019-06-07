@@ -4,13 +4,17 @@ import Form from './components/Form'
 const logo = `${process.env.PUBLIC_URL}/img/logo.svg`;
 
 const Login = () => (
-    <div>
-        <div>
-            <h3 className="text-center">
-                <img style={{align: "center"}} src={logo} alt="Logo"/>
-            </h3>
+    <div className="login">
+        <div className="login__wrapper">
+            <div className="login__card">
+                <h3 className="login__title text-center">
+                    <img style={{align: "center", width: "50%",}} src={logo} alt="Logo"/>
+                    <span className="login__logo">
+                        </span>
+                </h3>
+                <Form onSubmit/>
+            </div>
         </div>
-        <Form/>
     </div>
 );
 

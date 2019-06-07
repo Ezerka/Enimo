@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Form = () => (
-    <div>
+    <div style={{color: '#ffffff'}}>
         This is an form
     </div>
 );
