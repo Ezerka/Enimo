@@ -1,7 +1,6 @@
 import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
 import SampleCardView from './components/CardView';
-import {Link} from "react-router-dom";
 
 const Machines = () => (
     <Container className="dashboard">
@@ -13,9 +12,6 @@ const Machines = () => (
         <Row>
             <SampleCardView/>
         </Row>
-        <Link to="/">
-            <p>Machines Page</p>
-        </Link>
     </Container>
 );
 

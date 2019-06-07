@@ -1,22 +1,17 @@
 import React from 'react';
-import {Col, Container, Row} from 'reactstrap';
-import SampleCardView from './components/CardView';
-import {Link} from "react-router-dom";
+import Form from './components/Form'
+
+const logo = `${process.env.PUBLIC_URL}/img/logo.svg`;
 
 const Login = () => (
-    <Container className="dashboard">
-        <Row>
-            <Col md={12}>
-                <h3 className="page-title">Login</h3>
-            </Col>
-        </Row>
-        <Row>
-            <SampleCardView/>
-        </Row>
-        <Link to="/home">
-            <p>Home Page</p>
-        </Link>
-    </Container>
+    <div>
+        <div>
+            <h3 className="text-center">
+                <img style={{align: "center"}} src={logo} alt="Logo"/>
+            </h3>
+        </div>
+        <Form/>
+    </div>
 );
 
 export default Login;

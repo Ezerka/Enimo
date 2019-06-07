@@ -1,7 +1,6 @@
 import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
 import SampleCardView from './components/CardView';
-import {Link} from "react-router-dom";
 
 const Solar = () => (
     <Container className="dashboard">
@@ -13,9 +12,6 @@ const Solar = () => (
         <Row>
             <SampleCardView/>
         </Row>
-        <Link to="/">
-            <p>Solar Page</p>
-        </Link>
     </Container>
 );
 
