@@ -1,13 +1,10 @@
 import PropTypes from "prop-types";
 import React from 'react';
 import SidebarLink from './SidebarLink'
-import SidebarCategory from './SidebarCategory'
 
 
 class SidebarContent extends React.Component {
     static propTypes = {
-        changeToDark: PropTypes.func.isRequired,
-        changeToLight: PropTypes.func.isRequired,
         onClick: PropTypes.func.isRequired,
     };
     
@@ -17,25 +14,23 @@ class SidebarContent extends React.Component {
     };
     
     render() {
-        const {changeToDark, changeToLight} = this.props;
         return (
             <div className="sidebar__content">
                 <ul className="sidebar__block">
-                    <SidebarLink title="Home" icon="home" route="/" onClick={this.hideSidebar}/>
-                    <SidebarCategory title="Layout" icon="layers">
-                        <button type="button" className="sidebar__link" onClick={changeToLight}>
-                            <p className="sidebar__link-title">Light Theme</p>
-                        </button>
-                        <button type="button" className="sidebar__link" onClick={changeToDark}>
-                            <p className="sidebar__link-title">Dark Theme</p>
-                        </button>
-                    </SidebarCategory>
+                    <SidebarLink title="Home" icon="home" route="/home" onClick={this.hideSidebar}/>
+                    <SidebarLink title="Usage" icon="chart-bars" route="/usage" onClick={this.hideSidebar}/>
+    
+                    <ul className="sidebar__block">
+                        <SidebarLink title="Machines" icon="chart-bars" route="/machines" onClick={this.hideSidebar}/>
+                    </ul>
+    
+                    <SidebarLink title="Solar" icon="store" route="/solar" onClick={this.hideSidebar}/>
+    
+                    <SidebarLink title="History" icon="list" route="/history" onClick={this.hideSidebar}/>
+                    <SidebarLink title="Settings" icon="cog" route="/settings" onClick={this.hideSidebar}/>
                 </ul>
                 <ul className="sidebar__block">
-                    <SidebarCategory title="Sample Pages" icon="book">
-                        <SidebarLink title="Page one" route="/one" onClick={this.hideSidebar}/>
-                        <SidebarLink title="Page two" route="/two" onClick={this.hideSidebar}/>
-                    </SidebarCategory>
+                    <SidebarLink title="Log Out" icon="exit" route="/login"/>
                 </ul>
             </div>
         );

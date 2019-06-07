@@ -1,19 +1,22 @@
 import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
+import SampleCardView from './components/CardView';
 import {Link} from "react-router-dom";
 
-const OpenDashboard = () => (
+const Solar = () => (
     <Container className="dashboard">
         <Row>
             <Col md={12}>
-                <h3 className="page-title">Open The Dashboard</h3>
+                <h3 className="page-title">Solar</h3>
             </Col>
         </Row>
-        
-        <Link to="/pages/one">
-            <p>Dashboard</p>
+        <Row>
+            <SampleCardView/>
+        </Row>
+        <Link to="/">
+            <p>Solar Page</p>
         </Link>
     </Container>
 );
 
-export default OpenDashboard;
+export default Solar;

@@ -3,20 +3,20 @@ import {Col, Container, Row} from 'reactstrap';
 import SampleCardView from './components/CardView';
 import {Link} from "react-router-dom";
 
-const Helloworld = () => (
+const Login = () => (
     <Container className="dashboard">
         <Row>
             <Col md={12}>
-                <h3 className="page-title">First Page</h3>
+                <h3 className="page-title">Login</h3>
             </Col>
         </Row>
         <Row>
             <SampleCardView/>
         </Row>
-        <Link to="/pages/one">
-            <p>Main Page</p>
+        <Link to="/home">
+            <p>Home Page</p>
         </Link>
     </Container>
 );
 
-export default Helloworld;
+export default Login;
