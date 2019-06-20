@@ -119,7 +119,7 @@ class VoltageCurrentCharts extends PureComponent {
         const {data} = this.state;
 
         return (
-            <Col md={6} lg={12} xl={12}>
+            <Col md={12} lg={12} xl={12}>
                 <Card>
                     <CardBody className="voltage_current_card">
                         <div className="card__title">
