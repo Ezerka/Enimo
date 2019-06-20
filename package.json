@@ -55,6 +55,7 @@
         "react-dev-utils": "^9.0.1",
         "react-dom": "^16.8.6",
         "react-hot-loader": "^4.8.0",
+        "react-i18next": "^10.2.0",
         "react-redux": "^7.0.3",
         "react-router-dom": "^5.0.0",
         "react-smooth-scrollbar": "^8.0.6",

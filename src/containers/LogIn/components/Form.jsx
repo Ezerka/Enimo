@@ -6,6 +6,30 @@ import AccountOutlineIcon from 'mdi-react/AccountOutlineIcon';
 import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types';
 import renderCheckBoxField from '../../../shared/CheckBox';
+import validate from './validate'
+
+const RenderField = ({input, placeholder, type, meta: { touched, error },}) => (
+    <div className="form__form-group-input-wrap">
+        <input {...input} placeholder={placeholder} type={type} />
+        {touched && error && <span className="form__form-group-error">{error}</span>}
+    </div>
+);
+
+RenderField.propTypes = {
+    input:PropTypes.shape().isRequired,
+    placeholder:PropTypes.string,
+    type:PropTypes.string,
+    meta:PropTypes.shape({
+        touched:PropTypes.bool,
+        error:PropTypes.string,
+    }),
+};
+
+RenderField.defaultProps = {
+    placeholder: '',
+    meta: null,
+    type: 'text',
+};
 
 class Form extends PureComponent {
     static propTypes = {
@@ -30,7 +54,7 @@ class Form extends PureComponent {
     
     render() {
         const {handleSubmit} = this.props;
-        
+
         return (
             <form className="form" onSubmit={handleSubmit}>
                 <div className="form__form-group">
@@ -40,7 +64,7 @@ class Form extends PureComponent {
                         <div className="form__form-group-icon">
                             <AccountOutlineIcon fill={'#ffffff'}/>
                         </div>
-                        <Field name="username" component="input" type="text" placeholder="Name"/>
+                        <Field name="username" component={RenderField} type="text" placeholder="Test"/>
                     </div>
                 </div>
                 
@@ -52,7 +76,7 @@ class Form extends PureComponent {
                             <KeyVariantIcon/>
                         </div>
                         
-                        <Field name="password" component="input" type={this.state.showPassword ? 'text' : 'password'}
+                        <Field name="password" component={RenderField} type={this.state.showPassword ? 'text' : 'password'}
                                placeholder="Password"/>
                         
                         <button className={`form__form-group-button${this.state.showPassword ? ' active' : ''}`}
@@ -75,14 +99,19 @@ class Form extends PureComponent {
                 </div>
                 
                 <div className="login__btns">
-                    <Link className="btn btn-secondary login__btn" to="/home">Sign In</Link>
-                    <Link className="btn btn-outline-secondary login__btn" to="/register">Register</Link>
+                    <Link className="btn btn-secondary login__btn" onClick={handleSubmit} to={''}>Sign In</Link>
+                    <Link className="btn btn-outline-secondary login__btn" onClick={validate} to={''}>Register</Link>
                 </div>
             </form>
         );
     }
 }
 
+
+
+
+
 export default reduxForm({
     form: 'log_in_form', // a unique identifier for this form
+    validate,
 })(Form);

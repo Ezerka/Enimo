@@ -11,10 +11,10 @@ class Topbar extends PureComponent {
         modifyMobileSidebarVisibility: PropTypes.func.isRequired,
         modifySidebarVisibility: PropTypes.func.isRequired,
     };
-    
+
     render() {
         const {modifyMobileSidebarVisibility, modifySidebarVisibility} = this.props;
-        
+
         return (
             <div className="topbar">
                 <div className="topbar__wrapper">
