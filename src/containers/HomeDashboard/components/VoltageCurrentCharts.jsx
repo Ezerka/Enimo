@@ -38,6 +38,7 @@ const initialState = {
 };
 
 const options = {
+    maintainAspectRatio: false,
     scales: {
         xAxes: [
             {
@@ -71,8 +72,9 @@ class VoltageCurrentCharts extends PureComponent {
             const oldDataSet = _this.state.data.datasets[0];
             const newData = [];
 
-            for (let x = 0; x < _this.state.data.labels.length; x += 1) {
-                newData.push(Math.floor(Math.random() * 100));
+            for (let x = 0; x < _this.state.data.labels.length; x++) {
+                newData.push(Math.floor(Math.random() * 50) + 50);
+                console.log(Math.floor(Math.random() * 50) + 50);
             }
 
             const newDataSet = {
@@ -84,8 +86,8 @@ class VoltageCurrentCharts extends PureComponent {
             const oldDataSet2 = _this.state.data.datasets[1];
             const newData2 = [];
 
-            for (let x = 0; x < _this.state.data.labels.length; x += 1) {
-                newData2.push(Math.floor(Math.random() * 100));
+            for (let x = 0; x < _this.state.data.labels.length; x++) {
+                newData2.push(Math.floor(Math.random() * 50) + 50);
             }
 
             const newDataSet2 = {
@@ -123,7 +125,9 @@ class VoltageCurrentCharts extends PureComponent {
                         <div className="card__title">
                             <h5 className="bold-text">{"Voltage Current Usage"}</h5>
                         </div>
-                        <Line data={data} options={options}/>
+                        <div className="chart-height-50">
+                            <Line data={data} options={options} height={350}/>
+                        </div>
                     </CardBody>
                 </Card>
             </Col>
