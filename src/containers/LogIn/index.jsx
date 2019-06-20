@@ -1,6 +1,6 @@
 import React from 'react';
 import Form from './components/Form'
-import ShowResults from './Show'
+import ShowResults from './components/Show'
 
 const logo = `${process.env.PUBLIC_URL}/img/logo.svg`;
 
