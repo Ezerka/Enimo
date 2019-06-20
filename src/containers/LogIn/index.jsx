@@ -1,7 +1,6 @@
 import React from 'react';
 import Form from './components/Form'
 import ShowResults from './Show'
-import {Route} from "react-router-dom";
 
 const logo = `${process.env.PUBLIC_URL}/img/logo.svg`;
 

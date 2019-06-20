@@ -1,5 +1,4 @@
 /* eslint-disable no-alert */
-import React from 'react';
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 

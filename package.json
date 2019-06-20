@@ -18,6 +18,7 @@
         "camelcase": "^5.2.0",
         "case-sensitive-paths-webpack-plugin": "2.2.0",
         "classnames": "latest",
+        "chart.js": "^2.7.3",
         "css-loader": "2.1.1",
         "dotenv": "6.2.0",
         "dotenv-expand": "4.2.0",
@@ -73,7 +74,8 @@
         "webpack": "4.29.6",
         "webpack-dev-server": "3.2.1",
         "webpack-manifest-plugin": "2.0.4",
-        "workbox-webpack-plugin": "4.2.0"
+        "workbox-webpack-plugin": "4.2.0",
+        "react-chartjs-2": "latest"
     },
     "scripts": {
         "start": "node scripts/start.js",
