@@ -4,6 +4,7 @@
     "private": true,
     "devDependencies": {
         "@babel/core": "7.4.3",
+        "@hot-loader/react-dom": "^16.8.6",
         "@svgr/webpack": "4.1.0",
         "@typescript-eslint/eslint-plugin": "1.6.0",
         "@typescript-eslint/parser": "1.6.0",
@@ -17,8 +18,8 @@
         "bootstrap": "^4.3.1",
         "camelcase": "^5.2.0",
         "case-sensitive-paths-webpack-plugin": "2.2.0",
-        "classnames": "latest",
         "chart.js": "^2.7.3",
+        "classnames": "latest",
         "css-loader": "2.1.1",
         "dotenv": "6.2.0",
         "dotenv-expand": "4.2.0",
@@ -53,6 +54,7 @@
         "prop-types": "latest",
         "react": "^16.8.6",
         "react-app-polyfill": "^1.0.1",
+        "react-chartjs-2": "latest",
         "react-dev-utils": "^9.0.1",
         "react-dom": "^16.8.6",
         "react-hot-loader": "^4.8.0",
@@ -74,8 +76,7 @@
         "webpack": "4.29.6",
         "webpack-dev-server": "3.2.1",
         "webpack-manifest-plugin": "2.0.4",
-        "workbox-webpack-plugin": "4.2.0",
-        "react-chartjs-2": "latest"
+        "workbox-webpack-plugin": "4.2.0"
     },
     "scripts": {
         "start": "node scripts/start.js",

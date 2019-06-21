@@ -50,6 +50,8 @@ const options = {
         yAxes: [
             {
                 ticks: {
+                    min: 0,
+                    max: 100,
                     fontColor: 'rgb(204, 204, 204)',
                 },
             },
@@ -74,7 +76,6 @@ class VoltageCurrentCharts extends PureComponent {
 
             for (let x = 0; x < _this.state.data.labels.length; x++) {
                 newData.push(Math.floor(Math.random() * 50) + 50);
-                console.log(Math.floor(Math.random() * 50) + 50);
             }
 
             const newDataSet = {
