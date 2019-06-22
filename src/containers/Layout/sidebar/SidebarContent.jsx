@@ -26,7 +26,8 @@ class SidebarContent extends React.Component {
                     </ul>
     
                     <SidebarLink title="Solar" icon="store" route="/solar" onClick={this.hideSidebar}/>
-    
+                    <SidebarLink title="Weather" icon="cloud" route="/weather"
+                                 onClick={this.hideSidebar}/>
                     <SidebarLink title="History" icon="list" route="/history" onClick={this.hideSidebar}/>
                     <SidebarLink title="Settings" icon="cog" route="/settings" onClick={this.hideSidebar}/>
                 </ul>

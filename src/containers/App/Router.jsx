@@ -10,6 +10,7 @@ import Usage from '../UsageDashboard/index'
 import Login from '../LogIn/index'
 import Settings from '../SettingsPage/index'
 import History from '../HistoryPage/index'
+import Weather from '../Weather/index'
 
 const wrappedRoutes = () => (
     <div>
@@ -21,6 +22,7 @@ const wrappedRoutes = () => (
             <Route exact path="/solar" component={Solar}/>
             <Route exact path="/settings" component={Settings}/>
             <Route exact path="/history" component={History}/>
+            <Route exact path="/weather" component={Weather}/>
         </div>
     </div>
 );
