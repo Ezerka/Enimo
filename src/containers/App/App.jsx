@@ -6,7 +6,7 @@ import Router from './Router'
 import {BrowserRouter} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import '../../scss/index.scss';
-
+import '../../'
 
 class App extends React.Component {
     state = {

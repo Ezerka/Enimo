@@ -4,8 +4,10 @@ import Axios from 'axios'
 
 const DisplayWeather = (props) => (
     <div>
-        <h3>Weather is </h3>
-        {console.log(props.data)}
+        <li>
+            <span className="wi-owm-721"/>
+            <p>Weather is {props.data.description}</p>
+        </li>
     </div>
 );
 
@@ -18,6 +20,8 @@ class Weather extends React.Component {
             temperature: '',
             humidity: '',
             wind: '',
+            description: '',
+            icon: ''
         }
     };
 
@@ -29,6 +33,8 @@ class Weather extends React.Component {
                 weather_data: {
                     temperature: resp.data.main.temp,
                     humidity: resp.data.main.humidity,
+                    description: resp.data.weather[0].description,
+                    icon: resp.data.weather[0].id
                 }
             }
         );
