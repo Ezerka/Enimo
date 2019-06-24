@@ -3,7 +3,7 @@ import {hot} from "react-hot-loader";
 import {Provider} from 'react-redux';
 import store from './store';
 import Router from './Router'
-import {BrowserRouter} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import '../../scss/index.scss';
 import '../../'
@@ -25,7 +25,7 @@ class App extends React.Component {
         const {loaded, loading} = this.state;
         return (
             <Provider store={store}>
-                <BrowserRouter>
+                <HashRouter>
                     <Fragment>
                         {!loaded && (<div className={`load${loading ? '' : ' loaded'}`}>
                             <div className="load__icon-wrap">
@@ -39,7 +39,7 @@ class App extends React.Component {
                             <Router/>
                         </div>
                     </Fragment>
-                </BrowserRouter>
+                </HashRouter>
             </Provider>
         )
     }
