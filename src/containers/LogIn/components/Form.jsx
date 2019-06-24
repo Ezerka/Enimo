@@ -99,17 +99,15 @@ class Form extends PureComponent {
                 </div>
                 
                 <div className="login__btns">
-                    <Link className="btn btn-secondary login__btn" onClick={handleSubmit} to={''}>Sign In</Link>
-                    <Link className="btn btn-outline-secondary login__btn" onClick={validate} to={''}>Register</Link>
+                    <Link className="btn btn-secondary login__btn" onClick={handleSubmit}
+                          to="/home">Sign In</Link>
+                    <Link className="btn btn-outline-secondary login__btn" onClick={handleSubmit}
+                          to="">Register</Link>
                 </div>
             </form>
         );
     }
 }
-
-
-
-
 
 export default reduxForm({
     form: 'log_in_form', // a unique identifier for this form
