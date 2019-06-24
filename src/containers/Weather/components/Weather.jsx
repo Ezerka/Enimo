@@ -5,7 +5,7 @@ import Axios from 'axios'
 const DisplayWeather = (props) => (
     <div>
         <li>
-            <span className="wi-owm-721"/>
+            <span className={"wi wi-owm-" + props.data.icon}/>
             <p>Weather is {props.data.description}</p>
         </li>
     </div>
@@ -28,7 +28,7 @@ class Weather extends React.Component {
     handleTheSubmit = async (event) => {
         event.preventDefault();
         let apiKey = "7b8f3dc1d1ed2e50c82e0b2b607733bc";
-        const resp = await Axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${this.state.city},${this.state.country}&appid=${apiKey}`);
+        const resp = await Axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${this.state.city},${this.state.country}&units=metric&appid=${apiKey}`);
         this.setState({
                 weather_data: {
                     temperature: resp.data.main.temp,
