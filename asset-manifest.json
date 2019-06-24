@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/enimo/static/css/main.2f4d15ef.chunk.css",
+    "main.js": "/enimo/static/js/main.382e65d3.chunk.js",
+    "main.js.map": "/enimo/static/js/main.382e65d3.chunk.js.map",
+    "runtime~main.js": "/enimo/static/js/runtime~main.e7a99bab.js",
+    "runtime~main.js.map": "/enimo/static/js/runtime~main.e7a99bab.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/enimo/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.d361704c.chunk.js": "/enimo/static/js/2.d361704c.chunk.js",
+    "static/js/2.d361704c.chunk.js.map": "/enimo/static/js/2.d361704c.chunk.js.map",
+    "index.html": "/enimo/index.html",
+    "precache-manifest.db52392b3ed3c7700d5becf0be83ab9d.js": "/enimo/precache-manifest.db52392b3ed3c7700d5becf0be83ab9d.js",
+    "service-worker.js": "/enimo/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/enimo/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.2f4d15ef.chunk.css.map": "/enimo/static/css/main.2f4d15ef.chunk.css.map",
+    "static/media/index.scss": "/enimo/static/media/logo.32900815.svg"
+  }
+}
