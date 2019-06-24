@@ -2,7 +2,7 @@
     "name": "enimo",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://ezerka.github.io/enimo",
+    "homepage": "https://ezerka.github.io/enimo/test",
     "devDependencies": {
         "@babel/core": "7.4.3",
         "@hot-loader/react-dom": "^16.8.6",
@@ -85,7 +85,7 @@
         "start": "node scripts/start.js",
         "build": "node scripts/build.js",
         "test": "node scripts/test.js",
-        "predeploy": "npm run build",
+        "predeploy": "yarn run build",
         "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
