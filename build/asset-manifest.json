@@ -1,0 +1,18 @@
+{
+    "files": {
+        "main.css": "/Enimo/static/css/main.d2ba04f3.chunk.css",
+        "main.js": "/Enimo/static/js/main.d914cf10.chunk.js",
+        "main.js.map": "/Enimo/static/js/main.d914cf10.chunk.js.map",
+        "runtime~main.js": "/Enimo/static/js/runtime~main.fccfb23d.js",
+        "runtime~main.js.map": "/Enimo/static/js/runtime~main.fccfb23d.js.map",
+        "static/css/2.22a7d4ef.chunk.css": "/Enimo/static/css/2.22a7d4ef.chunk.css",
+        "static/js/2.92847c53.chunk.js": "/Enimo/static/js/2.92847c53.chunk.js",
+        "static/js/2.92847c53.chunk.js.map": "/Enimo/static/js/2.92847c53.chunk.js.map",
+        "index.html": "/Enimo/index.html",
+        "precache-manifest.0470d1ebb14ac88c81772c7434ead7e1.js": "/Enimo/precache-manifest.0470d1ebb14ac88c81772c7434ead7e1.js",
+        "service-worker.js": "/Enimo/service-worker.js",
+        "static/css/2.22a7d4ef.chunk.css.map": "/Enimo/static/css/2.22a7d4ef.chunk.css.map",
+        "static/css/main.d2ba04f3.chunk.css.map": "/Enimo/static/css/main.d2ba04f3.chunk.css.map",
+        "static/media/index.scss": "/Enimo/static/media/weathericons-regular-webfont.8cac70eb.woff"
+    }
+}
