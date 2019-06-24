@@ -2,7 +2,6 @@
     "name": "enimo",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://ezerka.github.io/Enimo",
     "devDependencies": {
         "@babel/core": "7.4.3",
         "@hot-loader/react-dom": "^16.8.6",
