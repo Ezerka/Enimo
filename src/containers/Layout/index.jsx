@@ -7,7 +7,10 @@ import Topbar from './topbar/Topbar';
 import Sidebar from './sidebar/Sidebar';
 
 import {modifyColorToDark, modifyColorToLight} from '../../redux/actions/dashboardActions';
-import {modifyMobileSidebarVisibility, modifySidebarVisibility} from '../../redux/actions/sidebarActions';
+import {
+    modifyMobileSidebarVisibility,
+    modifySidebarVisibility
+} from '../../redux/actions/sidebarActions';
 import {SidebarProps} from '../../shared/proptypes/ReducerProps';
 
 class Layout extends Component {

@@ -4,10 +4,8 @@ import Axios from 'axios'
 
 const DisplayWeather = (props) => (
     <div>
-        <li>
-            <span className={"wi wi-owm-" + props.data.icon}/>
-            <p>Weather is {props.data.description}</p>
-        </li>
+        <span className={"wi wi-owm-" + props.data.icon}/>
+        <p>Weather is {props.data.description}</p>
     </div>
 );
 
