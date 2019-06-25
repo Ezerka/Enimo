@@ -1,13 +1,14 @@
 .login {
-    height: 100vh;
-    width: 100%;
+    height: auto;
+    width: auto;
     min-height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     overflow-y: auto;
 
-    @include themify($themes) {
-        background: themed('colorBackgroundBody');
-    }
+    //@include themify($themes) {
+    //    background: themed('colorBackgroundBody');
+    //}
 
     &.login--photo {
         background: url(../shared/img/404.png) no-repeat center;
