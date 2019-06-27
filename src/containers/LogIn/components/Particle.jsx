@@ -4,7 +4,7 @@ import Particles from 'react-particles-js'
 const ParticleOptions = {
     "particles": {
         "number": {
-            "value": 80,
+            "value": 60,
             "density": {
                 "enable": true,
                 "value_area": 800
@@ -123,7 +123,7 @@ const ParticleBackground = () => (
             width: '100%',
         }}
     >
-        <Particles params={ParticleOptions}/>
+        <Particles className="particles" params={ParticleOptions}/>
     </div>
 );
 
