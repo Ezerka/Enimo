@@ -45,7 +45,9 @@ Energy consumption monitoring of equipment in Households in real time. Displayin
 ENIMO(Energy Information and Monitoring)is the answer to all these problems.
 
 Enimo has two main objectives to complete and they are:
+
 •    Identify faults and weaknesses in the equipment early so preventative maintenance and replacement can be done in a safe and orderly way
+
 •    Ensure the machine is maintained in an optimum environment to maximize performance and life.
 
 
