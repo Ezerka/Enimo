@@ -24,11 +24,10 @@ The World is in a transition phase and energy is central to it. India has been r
 
 
 In today’s industrial era, industries account for the major consumption (44%) of electrical energy and in this competitive market scenario. Households occupy a major percentage of the electrical Energy after Industries.
-Today’s businesses have a great necessity of optimizing their energy needs and also to keep cost under control for the same level of activity due to an increase in energy prices, operational cost and carbon emission.
 “We were looking for a system that could monitor a wide range of energy parameters, provide clear management information and that would keep disruption in the plant to a minimum. “
 
 
-## Benefits of having a Machine Monitoring System:
+## Benefits of having a Energy Monitoring System(ENIMO):
 
 
 •    Reduces cost by analyzing the amount of data actually required and the amount of energy being consumed. The  Dashboard provides the information and recommendation model which gives necessary tips observing the patterns.
