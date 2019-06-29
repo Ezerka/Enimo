@@ -4,65 +4,46 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `yarn install`
+
+This command installs all the dependencies of yarn
+
+### `yarn start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### We prefer you to open it via Mozilla Firefox or Microsoft Edge
 
-### `npm test`
+## Description
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The World is in a transition phase and energy is central to it. India has been responsible for almost 10% of the increase in global energy demand since 2000 pushing the country’s share in global demand up to 5.7% in 2013 from 4.4% at the beginning of the century. The primary energy demand in India has grown from about 441 Mtoe (Million tonne of oil equivalent) in 2000 to about 775 Mtoe in 2013. This demand is expected to increase to about 1250 (estimated by International Energy Agency) to 1500 (estimated in the Integrated Energy Policy Report) million toe in 2030. One of the biggest problems facing India today is the challenge caused by increased energy consumption and the increase of greenhouse gas emissions almost double since 2000.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Problem Statement:
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In today’s industrial era, industries account for the major consumption (44%) of electrical energy and in this competitive market scenario. Households occupy a major percentage of the electrical Energy after Industries.
+Today’s businesses have a great necessity of optimizing their energy needs and also to keep cost under control for the same level of activity due to an increase in energy prices, operational cost and carbon emission.
+“We were looking for a system that could monitor a wide range of energy parameters, provide clear management information and that would keep disruption in the plant to a minimum. “
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Benefits of having a Machine Monitoring System:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+•    Reduces cost by analyzing the amount of data actually required and the amount of energy being consumed. The  Dashboard provides the information and recommendation model which gives necessary tips observing the patterns.
+•    24/7 alarm notifications allow you or your Family to respond quickly to machine issues.
+•    Save time by having remote access to machine data and pinpointing faults to specific individual machines.
+Solution:
+Energy consumption monitoring of equipment in Households in real time. Displaying the real-time insights on the dashboard. Generating prediction using the collected data by data analysis and machine learning algorithms to empower decision making.
+ENIMO(Energy Information and Monitoring)is the answer to all these problems.
+Enimo has two main objectives to complete and they are:
+•    Identify faults and weaknesses in the equipment early so preventative maintenance and replacement can be done in a safe and orderly way
+•    Ensure the machine is maintained in an optimum environment to maximize performance and life.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## How it works:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+https://www.youtube.com/watch?v=_9FLg2woS5g
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
