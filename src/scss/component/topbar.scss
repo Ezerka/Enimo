@@ -195,7 +195,7 @@
     top: 0;
     height: 100%;
     width: 2px;
-      background: $color-accent;
+    background: $color-red;
     opacity: 0;
     transition: all 0.3s;
   }
@@ -301,7 +301,7 @@
   transition: 0.3s;
 
   &:hover {
-      color: $color-accent;
+    color: $color-red;
   }
 }
 
@@ -389,7 +389,7 @@
   margin: 0;
   font-size: 12px;
   line-height: 16px;
-    color: $color-accent;
+  color: $color-red;
 }
 
 .topbar__collapse-date {
@@ -405,7 +405,7 @@
   display: block;
   padding: 10px;
   text-transform: uppercase;
-    color: $color-accent;
+  color: $color-red;
   transition: 0.3s;
   text-align: center;
   font-weight: 500;
@@ -433,7 +433,7 @@
   background: transparent;
 
   &:hover {
-      color: $color-accent;
+    color: $color-red;
   }
 }
 
@@ -563,7 +563,7 @@
 
 .topbar__nav-dropdown-menu {
   width: 240px;
-    border-top: 2px solid $color-accent;
+  border-top: 2px solid $color-red;
 
   button {
     padding: 0;
