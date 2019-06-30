@@ -1,14 +1,14 @@
-export const MOBILE_SIDEBAR_VISIBILITY = 'MOBILE_SIDEBAR_VISIBILITY';
-export const WEB_SIDEBAR_VISIBILITY = 'WEB_SIDEBAR_VISIBILITY';
+export const CHANGE_SIDEBAR_VISIBILITY = 'CHANGE_SIDEBAR_VISIBILITY';
+export const CHANGE_MOBILE_SIDEBAR_VISIBILITY = 'CHANGE_MOBILE_SIDEBAR_VISIBILITY';
 
-export function modifySidebarVisibility() {
+export function changeSidebarVisibility() {
     return {
-        type: WEB_SIDEBAR_VISIBILITY,
+        type: CHANGE_SIDEBAR_VISIBILITY,
     };
 }
 
-export function modifyMobileSidebarVisibility() {
+export function changeMobileSidebarVisibility() {
     return {
-        type: MOBILE_SIDEBAR_VISIBILITY,
+        type: CHANGE_MOBILE_SIDEBAR_VISIBILITY,
     };
 }

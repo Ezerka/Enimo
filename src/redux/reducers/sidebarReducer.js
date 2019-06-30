@@ -1,4 +1,7 @@
-import {MOBILE_SIDEBAR_VISIBILITY, WEB_SIDEBAR_VISIBILITY,} from '../actions/sidebarActions';
+import {
+    CHANGE_MOBILE_SIDEBAR_VISIBILITY,
+    CHANGE_SIDEBAR_VISIBILITY,
+} from '../actions/sidebarActions';
 
 const initialState = {
     show: false,
@@ -7,9 +10,9 @@ const initialState = {
 
 export default function (state = initialState, action) {
     switch (action.type) {
-        case WEB_SIDEBAR_VISIBILITY:
+        case CHANGE_SIDEBAR_VISIBILITY:
             return {...state, collapse: !state.collapse};
-        case MOBILE_SIDEBAR_VISIBILITY:
+        case CHANGE_MOBILE_SIDEBAR_VISIBILITY:
             return {...state, show: !state.show};
         default:
             return state;

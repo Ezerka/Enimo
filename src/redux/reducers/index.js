@@ -1,7 +1,13 @@
-import dashboardReducer from './dashboardReducer';
+import themeReducer from './themeReducer';
 import sidebarReducer from './sidebarReducer';
+import cryptoTableReducer from './cryptoTableReducer';
+import newOrderTableReducer from './newOrderTableReducer';
+import customizerReducer from './customizerReducer';
 
 export {
-    dashboardReducer,
+    themeReducer,
     sidebarReducer,
+    cryptoTableReducer,
+    newOrderTableReducer,
+    customizerReducer,
 };
