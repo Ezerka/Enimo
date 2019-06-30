@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <link href="%PUBLIC_URL%/favicon.ico" rel="shortcut icon"/>
-    <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <meta content="#000000" name="theme-color"/>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta content="#000000" name="theme-color">
+
+    <!-- React JS -->
+    <script src="http://fb.me/react-0.10.0.min.js"></script>
+    <script src="http://fb.me/JSXTransformer-0.10.0.js"></script>
+
+    <!-- Firebase JS -->
+    <script src="https://cdn.firebase.com/js/client/1.0.17/firebase.js"></script>
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link href="%PUBLIC_URL%/manifest.json" rel="manifest">
+    <link href="%PUBLIC_URL%/favicon.ico" rel="shortcut icon">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+
     <link href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" rel="stylesheet">
     <link href="%PUBLIC_URL%/load.css" rel="stylesheet">
-
-
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link href="%PUBLIC_URL%/manifest.json" rel="manifest"/>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -27,8 +33,20 @@
     <title>Enimo</title>
 </head>
 <body>
-<noscript>You need to enable JavaScript to run this app.</noscript>
-<div id="root"></div>
+<noscript>
+    You need to enable JavaScript to run this app.
+</noscript>
+<div id="root">
+    <!--Loader-->
+    <div class="load">
+        <div class="load__icon-wrap">
+            <svg class="load__icon">
+                <path d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z" fill="#ff4861"/>
+            </svg>
+        </div>
+    </div>
+    <!--Loader-->
+</div>
 <!--
   This HTML file is a template.
   If you open it directly in the browser, you will see an empty page.
@@ -40,4 +58,17 @@
   To create a production bundle, use `npm run build` or `yarn build`.
 -->
 </body>
+<script src="https://www.gstatic.com/firebasejs/5.8.5/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyC6MhugRQOBC4hXuYtfvA6_zZ22XGBDI30",
+        authDomain: "zenco-project.firebaseapp.com",
+        databaseURL: "https://zenco-project.firebaseio.com",
+        projectId: "zenco-project",
+        storageBucket: "zenco-project.appspot.com",
+        messagingSenderId: "512650874407"
+    };
+    firebase.initializeApp(config);
+</script>
 </html>
