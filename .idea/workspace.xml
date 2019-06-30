@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1e2e8ea-67e4-4850-874d-7797abcf5b66" name="Default Changelist" comment="63: Added the webpack in the config.">
+      <change afterPath="$PROJECT_DIR$/.idea/dashboard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/EmailConfimation/components/EmailConfirmationCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/EmailConfimation/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/LockScreen/components/LockScreenForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/LockScreen/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/LogIn/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileActivities.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileActivity.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileCalendar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileMain.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileSettings.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileTabs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileTasks.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileTimeLine.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/Profile/components/Show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/Profile/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/Register/components/RegisterForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/Register/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/RegisterPhoto/components/RegisterForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/RegisterPhoto/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/log_in_photo/components/LogInForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Account/log_in_photo/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/App/App.test.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/App/MainWrapper.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/App/ScrollToTop.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/App/YM.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/App/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/ChartJs/components/DynamiclyRefreshedDoughnut.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/ChartJs/components/LegendHandlers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/ChartJs/components/PointSizes.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/ChartJs/components/PolarArea.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/ChartJs/components/RandomAnimatedBars.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/ChartJs/components/RandomAnimatedLine.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/ChartJs/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/ReactVis/components/Bar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/ReactVis/components/LineSeries.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/ReactVis/components/LineSeriesCanvas.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/ReactVis/components/LineSeriesWithManyColors.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/ReactVis/components/MarkSeriesCanvas.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/ReactVis/components/Plots.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/ReactVis/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/Recharts/components/DashedLineChart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/Recharts/components/MultipleYAxesScatterChart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/Recharts/components/SimpleAreaChart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/Recharts/components/SimpleLineChart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/Recharts/components/SimpleRadarChart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/Recharts/components/SimpleRadialBarChart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/Recharts/components/StackedAreaChart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/Recharts/components/TwoLevelPieChart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Charts/Recharts/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Chat/components/Chat.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Chat/components/ChatBubble.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Chat/components/ChatCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Chat/components/ChatContact.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Chat/components/ChatField.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Chat/components/ChatSearch.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Chat/components/ChatTopbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Chat/components/contacts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Chat/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/1/components/NewOrderEditForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/1/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/2/components/TopTenEditForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/2/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/BookingCancels.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/Occupancy.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/OccupancyTooltipContent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/OurMission.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/Reservations.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/TimelineHistory.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/TotalBookings.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/TotalCustomers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/TotalProfitEarned.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/WeeklyStat.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/ActiveMachines.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/ChangeInCost.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/Cost.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/Efficiency.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/EnergyIntensity.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/LiveUsage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/LiveUsageInput.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/LiveUsageOutput.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/SolarEnergy.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/cta.kml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/silverMapStyle.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/MachinesDashboard/machine1/components/LiveStatusText.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/MachinesDashboard/machine1/components/MachineConsumption.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/MachinesDashboard/machine1/components/OpenTheWarningModel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/MachinesDashboard/machine1/components/UsageStatusText.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/MachinesDashboard/machine1/components/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/MachinesDashboard/machine1/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/MachinesDashboard/machine2/components/LiveStatusText.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/MachinesDashboard/machine2/components/MachineConsumption.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/MachinesDashboard/machine2/components/UsageStatusText.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/MachinesDashboard/machine2/components/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/MachinesDashboard/machine2/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/components/ActiveUsers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/components/ActiveUsersShort.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/components/AppTileClicks.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/components/CurrentUsers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/components/NewUsersShort.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/components/PageViewsShort.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/components/SessionShort.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/components/SocialMarketing.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/components/WeeklyStatMobile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/AnimatedProgressBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/BadPerformance.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/BasicCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/BudgetStatistic.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/Emails.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/GoodPerformance.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/MyTodos.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/NetUsage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/NewOrders.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/OrdersToday.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/OurMission.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/ProductSales.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/RecentOrders.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/Reservations.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/SalesStatistic.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/SalesStatistisBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/Savings.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/ShortReminders.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/SmallBars.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/SolarEnergyProduction.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/SolarEnergyUsage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/Subscriptions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/ToDo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/TopSellingProducts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/TotalConsumption.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/TotalProducts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/TotalProfit.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/BCH.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/BTC.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/BtcEth.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/BuyBTC.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/CryptotrendsToday.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/ETH.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/EnergyConsumedTabs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/PlaceOrder.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/SalesStatistisBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/SellBTC.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/SolarProducedTabs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/TopTen.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/TradeHistory.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/XRP.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/404/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Calendar/components/BigCalendar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Calendar/components/EventLabels.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Calendar/components/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Calendar/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Faq/components/FAQs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Faq/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Gallery/components/FilterGallery.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Gallery/components/Gallery.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Gallery/components/imgs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Gallery/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/InvoiceTemplate/components/InvoiceTemplate.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/InvoiceTemplate/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/PricingCards/components/CardBasic.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/PricingCards/components/CardPremium.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/PricingCards/components/CardPro.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/PricingCards/components/CardSpecial.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/PricingCards/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/ProjectSummary/components/ProjectMember.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/ProjectSummary/components/ProjectTeam.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/ProjectSummary/components/Statistics.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/ProjectSummary/components/Summary.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/ProjectSummary/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/SearchResults/components/SearchHere.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/SearchResults/components/SearchResult.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/SearchResults/components/results.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/SearchResults/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/TextEditor/components/Editor.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/TextEditor/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/01_introduction/components/IntroductionFeatures.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/01_introduction/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/02_installation/components/InstallationSteps.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/02_installation/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/03_files_structure/components/ScssStructure.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/03_files_structure/components/Structure.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/03_files_structure/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/04_components/components/Alerts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/04_components/components/Buttons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/04_components/components/Carousel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/04_components/components/Collapse.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/04_components/components/Intro.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/04_components/components/Modals.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/04_components/components/Notifications.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/04_components/components/Panel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/04_components/components/Popovers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/04_components/components/ProgressBars.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/04_components/components/RangeSliders.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/04_components/components/Tabs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/04_components/components/TimeLine.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/04_components/components/Tooltips.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/04_components/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/05_forms/components/CheckBoxes.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/05_forms/components/ColorPickers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/05_forms/components/DatePicker.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/05_forms/components/DropZones.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/05_forms/components/Material.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/05_forms/components/RadioButtons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/05_forms/components/ReduxForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/05_forms/components/Select.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/05_forms/components/TimePicker.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/05_forms/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/06_change_and_add_color_themes/components/AddColorThemes.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/06_change_and_add_color_themes/components/ChangeColorThemes.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/06_change_and_add_color_themes/components/UseColorTheme.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/06_change_and_add_color_themes/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/07_new_navigation_item/components/AddNewNavItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/07_new_navigation_item/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/08_resources/components/ResourcesLinks.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/08_resources/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/09_changelog/components/ChangelogList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/09_changelog/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/navigation/Navigation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Documentation/navigation/NavigationBottom.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/Cart/components/CartCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/Cart/components/CartPurchase.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/Cart/components/cart_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/Cart/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/Catalog/components/CatalogItems.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/Catalog/components/catalog_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/Catalog/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/OrdersList/components/OrdersListTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/OrdersList/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/Payment/components/PaymentCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/Payment/components/PaymentForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/Payment/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/ProductEdit/components/ProductEditForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/ProductEdit/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/ProductPage/components/ColorSelect.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/ProductPage/components/ProductCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/ProductPage/components/ProductGallery.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/ProductPage/components/ProductTabs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/ProductPage/components/RelatedItems.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/ProductPage/components/imgs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/ProductPage/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/ProductsList/components/ProductsListTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ECommerce/ProductsList/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/BasicForm/components/HorizontalForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/BasicForm/components/VerticalForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/BasicForm/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/CheckFormControls/components/ButtonTypeControls.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/CheckFormControls/components/ColoredControls.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/CheckFormControls/components/ColoredControlsOnClick.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/CheckFormControls/components/DefaultControls.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/CheckFormControls/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FileUpload/components/FileUploadCustomHeight.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FileUpload/components/FileUploadDefault.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FileUpload/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FloatingLabelsForm/components/AnimatedLineFormWithLabels.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FloatingLabelsForm/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FormDropzone/components/DropFiles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FormDropzone/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FormLayouts/components/HorizontalForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FormLayouts/components/HorizontalFormWithIcons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FormLayouts/components/VerticalForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FormLayouts/components/VerticalFormHalf.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FormLayouts/components/VerticalFormWithIcons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FormLayouts/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FormPicker/components/ColorPickers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FormPicker/components/DatePickers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FormPicker/components/TimePickers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FormPicker/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FormValidation/components/HorizontalForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FormValidation/components/HorizontalFormTwo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FormValidation/components/VerticalForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FormValidation/components/VerticalFormTwo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FormValidation/components/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/FormValidation/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/MaskForm/components/MaskExamples.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/MaskForm/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/MaterialForm/components/AnimatedLineForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/MaterialForm/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/Show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/WizardForm/components/WizardForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/WizardForm/components/WizardFormOne.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/WizardForm/components/WizardFormThree.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/WizardForm/components/WizardFormTwo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Form/WizardForm/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Grids.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Landing/components/Demos.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Landing/components/FeatureRequest.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Landing/components/Features.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Landing/components/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Landing/components/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Landing/components/Purchase.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Landing/components/Technologies.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Landing/components/Testimonials.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Landing/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/customizer/Customizer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/customizer/ToggleCollapsedMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/customizer/ToggleShadow.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/customizer/ToggleSquared.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/customizer/ToggleTheme.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/customizer/ToggleTopMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarLanguage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarMail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarNotification.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarSearch.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarSidebarButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarLanguage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarMail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarMenuLink.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarNotification.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarProfile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarSidebarButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarWithNavigation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/sidebar_mobile/SidebarCategory.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/sidebar_mobile/SidebarContent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/sidebar_mobile/SidebarLink.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/sidebar_mobile/SidebarMobile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/tobar_nav/TopbarNav.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/tobar_nav/TopbarNavCategory.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/tobar_nav/TopbarNavDashboards.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/tobar_nav/TopbarNavLink.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/tobar_nav/TopbarNavOtherPages.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/tobar_nav/TopbarNavUIElements.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Mail/components/ComposeEmail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Mail/components/Email.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Mail/components/EmailListItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Mail/components/EmailsControls.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Mail/components/Inbox.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Mail/components/InboxCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Mail/components/InboxTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Mail/components/MailBox.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Mail/components/email-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Mail/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Maps/GoogleMap/components/BasicMap.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Maps/GoogleMap/components/MonochromeMap.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Maps/GoogleMap/components/PinWithInfoWindow.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Maps/GoogleMap/components/silverMapStyle.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Maps/GoogleMap/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Maps/VectorMap/components/Map.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Maps/VectorMap/components/world-population-density.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Maps/VectorMap/components/world.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Maps/VectorMap/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Tables/BasicTables/components/BasicTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Tables/BasicTables/components/BorderedTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Tables/BasicTables/components/ColoredStringTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Tables/BasicTables/components/HeadAccentTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Tables/BasicTables/components/ResponsiveTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Tables/BasicTables/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Tables/DataTable/components/DataTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Tables/DataTable/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Tables/EditableTable/components/EditableTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Tables/EditableTable/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Tables/MaterialTable/components/MatTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Tables/MaterialTable/components/MatTableFilterButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Tables/MaterialTable/components/MatTableHead.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Tables/MaterialTable/components/MatTableToolbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Tables/MaterialTable/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Alerts/components/BasicAlerts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Alerts/components/BorderedAlertsWithIcons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Alerts/components/ColoredAlertsWithIcons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Alerts/components/NeutralAlertsWithIcons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Alerts/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Buttons/components/ButtonDropdown.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Buttons/components/ButtonGroups.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Buttons/components/ButtonIcons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Buttons/components/DefaultButtons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Buttons/components/RoundedButtons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Buttons/components/SquareButtons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Buttons/components/StatusButtons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Buttons/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Carousel/components/BasicCarousel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Carousel/components/BasicCarouselWithCaption.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Carousel/components/BasicCarouselWithoutCaption.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Carousel/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Collapse/components/BoxedCollapse.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Collapse/components/BoxedCollapseFullWidth.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Collapse/components/MinimalCollapse.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Collapse/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Modals/components/ColoredModals.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Modals/components/DefaultModals.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Modals/components/HeaderModals.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Modals/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Notification/components/BasicNotifications.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Notification/components/ColorStates.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Notification/components/ColorStatesFullWidth.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Notification/components/ImageNotifications.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Notification/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Notification/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Panels/components/DangerPanel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Panels/components/DefaultPanel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Panels/components/DefaultPanelDivider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Panels/components/DefaultPanelWithSubhead.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Panels/components/IconPanelDivider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Panels/components/LabelPanelDivider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Panels/components/SuccessPanel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Panels/components/TabsPanelDivider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Panels/components/WarningPanel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Panels/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/ProgressBars/components/AnimatedMultisizedProgressBars.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/ProgressBars/components/AnimatedProgressBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/ProgressBars/components/ColoredProgressBars.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/ProgressBars/components/DataProgressBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/ProgressBars/components/DefaultProgressBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/ProgressBars/components/MultisizedProgressBars.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/ProgressBars/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/RangeSliders/components/DoubleSliderType.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/RangeSliders/components/SliderStartPoint.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/RangeSliders/components/SliderWithScale.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/RangeSliders/components/SliderWithoutParams.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/RangeSliders/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Tabs/components/DefaultTabs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Tabs/components/DefaultTabsBorderedBottom.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Tabs/components/DefaultTabsBorderedTop.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Tabs/components/JustifyTabs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Tabs/components/JustifyTabsBorderedBottom.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Tabs/components/JustifyTabsBorderedTop.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Tabs/components/VerticalTabs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Tabs/components/VerticalTabsColored.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Tabs/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Timeline/components/TimelineHistory.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Timeline/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Tooltips/components/PopoverBottom.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Tooltips/components/PopoverLeft.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Tooltips/components/PopoverRight.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Tooltips/components/PopoverTop.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Tooltips/components/TooltipBottom.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Tooltips/components/TooltipLeft.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Tooltips/components/TooltipRight.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Tooltips/components/TooltipTop.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Tooltips/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Typography/components/BasicHeadings.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Typography/components/Blockquote.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Typography/components/BoldHeadings.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Typography/components/DefaultList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Typography/components/HeadingsSubheadings.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Typography/components/Highlight.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Typography/components/NumerousList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Typography/components/SampleText.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Typography/components/SampleTextDescription.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Typography/components/SimpleIconsList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Typography/components/SimpleIconsListGreen.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/UI/Typography/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/changetodark.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/inclasscontent.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firebase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/cryptoTableActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/customizerActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/newOrderTableActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/themeActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/cryptoTableReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/customizerReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/newOrderTableReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/calendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/catalog_item.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/chat.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/check-box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/collapse.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/color-picker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/customizer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/date-picker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/dropzone.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/edit-table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/email-confirmation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/gallery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/inbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/load.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/map.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/material-form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/material-table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/notification.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/panel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/pricing-card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/product-gallery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/progress-bar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/project-member.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/radio-btn.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/react-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/scroll.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/search-result.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/select-options.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/tabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/text-editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/time-picker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/todo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/toggle-btn.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/component/wizard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/containers/cart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/containers/dashboard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/containers/documentation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/containers/invoice.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/containers/landing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/containers/not-found.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/containers/payment.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/containers/product-card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/containers/product-edit.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/containers/products-list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/containers/profile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/containers/project-summary.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/vendor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/Alert.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/Calendar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/CodeHighlither.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/Collapse.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/Expand.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/Modal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/Notification.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/Panel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/TimeLineItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/carousel/CarouselMultiply.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/carousel/CarouselSingle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/catalog/ProductItems.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/form/BlockColorPicker.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/form/ChromeColorPicker.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/form/DatePicker.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/form/DateTimePicker.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/form/DropZone.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/form/DropZoneMultiple.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/form/FileInput.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/form/IntervalDatePicker.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/form/MultiSelect.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/form/RadioButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/form/Select.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/form/SketchColorPicker.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/form/TimePicker.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/form/ToggleButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/pagination/Pagination.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/pagination/PaginationSmall.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/range_slider/Range.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/range_slider/Slider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/table/DataPaginationTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/table/EditableTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/text-editor/TextEditor.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/img/404/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/img/404/bg_404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/img/logo/logo_light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/img_replace/404/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/img_replace/404/bg_404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/img_replace/logo/logo_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/img_replace/logo/logo_light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/prop-types/ChatProps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/prop-types/EmailProps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/prop-types/TablesProps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/translations/de/common.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/translations/en/common.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/translations/fr/common.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/translations/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/translations/resources.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/App/Router.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App/Router.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/App/Wrapper.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/App/store.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/HistoryPage/components/CardView.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/HistoryPage/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/HomeDashboard/components/Cost.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/HomeDashboard/components/Efficiency.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/HomeDashboard/components/PowerConsumption.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/PowerConsumption.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/HomeDashboard/components/SolarEnergy.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/HomeDashboard/components/VoltageCurrentCharts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/VoltageCurrentCharts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/HomeDashboard/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Layout/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Layout/sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/sidebar/Sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Layout/sidebar/SidebarCategory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/sidebar/SidebarCategory.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Layout/sidebar/SidebarContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/sidebar/SidebarContent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Layout/sidebar/SidebarLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/sidebar/SidebarLink.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Layout/topbar/Topbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/topbar/Topbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarButton.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarMenuLink.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarProfile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/LogIn/components/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/LogIn/components/Form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/LogIn/components/Particle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/LogIn/components/Particle.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/LogIn/components/Show.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/LogIn/components/Show.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/LogIn/components/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/LogIn/components/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/LogIn/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/MachinesDashboard/components/CardView.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/MachinesDashboard/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SettingsPage/components/CardView.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SettingsPage/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SolarDashboard/components/CardView.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SolarDashboard/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/UsageDashboard/components/CardView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/ECommerce/ProductEdit/components/ProductEditCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/UsageDashboard/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Weather/components/Weather.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Weather/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/dashboardActions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/sidebarActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/sidebarActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/dashboardReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/themeReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/sidebarReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/sidebarReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/Layout/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/objects/layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/Layout/sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/Layout/topbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/topbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/adjustment/adjustment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/generic/normalize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/adjustment/sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/generic/box-sizing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/scaffolding.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/btn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/btn.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/chart.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/check-box.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/load.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/containers/account.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/settings/variable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/CheckBox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/form/CheckBox.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/img/404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/img/logo/logo_dark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/proptypes/ReducerProps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/prop-types/ReducerProps.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/node_modules/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/img/menu_navigation.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/img/logo.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/jest/cssTransform.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/jest/fileTransform.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/containers/cart.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/containers/account.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/settings/variable.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="66" column="19" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/load.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/scripts/build.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/load.css" />
+        <option value="$PROJECT_DIR$/public/manifest.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="D:/Software/wordpress-4.9.6/wordpress-4.9.7/wordpress" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="145" />
+    <option name="y" value="125" />
+    <option name="width" value="1100" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="jest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Enimo\dashboard\public\img\pricing_cards" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Enimo\dashboard\config" />
+      <recent name="E:\Enimo\dashboard" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1e2e8ea-67e4-4850-874d-7797abcf5b66" name="Default Changelist" comment="" />
+      <created>1561864126376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561864126376</updated>
+      <workItem from="1561864130979" duration="3498000" />
+    </task>
+    <task id="LOCAL-00001" summary="61: Modified the package.json">
+      <created>1561865250666</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561865250666</updated>
+    </task>
+    <task id="LOCAL-00002" summary="62: Updated the scripts">
+      <created>1561866052985</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561866052985</updated>
+    </task>
+    <task id="LOCAL-00003" summary="63: Added the webpack in the config.">
+      <created>1561867348228</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561867348228</updated>
+    </task>
+    <task id="LOCAL-00004" summary="64: Modified the public folder and config/jest folder.">
+      <created>1561868104940</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561868104940</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3498000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884902" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Remote Host" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Key Promoter X" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="61: Modified the package.json" />
+    <MESSAGE value="62: Updated the scripts" />
+    <MESSAGE value="63: Added the webpack in the config." />
+    <MESSAGE value="64: Modified the public folder and config/jest folder." />
+    <option name="LAST_COMMIT_MESSAGE" value="64: Modified the public folder and config/jest folder." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1131">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/for_store/fur.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/for_store/pillow.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/for_store/pillow_2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/for_store/pillow_dog.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/for_store/vase.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/for_store/vase_2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/for_store/vase_3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/gallery/01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/gallery/02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/landing/demos/crypto_dark.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/landing/demos/crypto_light.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/landing/demos/Dashboard Analytics.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/landing/demos/Dashboard e-commerce.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/landing/demos/default_dark.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/landing/demos/default_light.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/landing/demos/ecommerce_dark.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/gallery/03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/SalesStatistisBar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/performance/bad.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/performance/correct.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/icons/001-rocket.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/icons/002-hot-air-balloon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/icons/003-airplane.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/shoes/01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/shoes/02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/24_mail_ava.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/ava.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/icons/004-paper-plane.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/correct.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/photo_notification.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/icons/settings.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/profile_image.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/menu_navigation.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/topbar/ava.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/topbar/ava2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/topbar/ava3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/fav.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/load.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/containers/cart.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/containers/account.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/settings/variable.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="66" column="19" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/jest/cssTransform.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/jest/fileTransform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

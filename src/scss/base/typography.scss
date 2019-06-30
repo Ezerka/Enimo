@@ -103,16 +103,20 @@ h6 {
     }
 }
 
+.typography-card.give-padding {
+    margin-bottom: 20px;
+}
+
 blockquote {
     font-size: 13px;
     font-style: italic;
-    border-left: 3px solid $color-red;
+    border-left: 3px solid $color-accent;
     margin-bottom: 0;
     padding-left: 10px;
 }
 
 .highlight {
-    background-color: $color-red;
+    background-color: $color-accent;
     color: #ffffff;
 }
 
@@ -121,7 +125,7 @@ blockquote {
 }
 
 .page-title {
-    font-weight: 600;
+    font-weight: 500;
     text-transform: capitalize;
     font-size: 20px;
 
@@ -145,6 +149,6 @@ blockquote {
 
 ::selection {
     color: #ffffff;
-    background: $color-red;
+    background: $color-accent;
 }
 
