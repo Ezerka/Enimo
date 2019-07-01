@@ -38,33 +38,6 @@ function getServedPath(appPackageJson) {
     return ensureSlash(servedUrl, true);
 }
 
-const moduleFileExtensions = [
-    'web.mjs',
-    'mjs',
-    'web.js',
-    'js',
-    'web.ts',
-    'ts',
-    'web.tsx',
-    'tsx',
-    'json',
-    'web.jsx',
-    'jsx',
-];
-
-// Resolve file paths in the same order as webpack
-const resolveModule = (resolveFn, filePath) => {
-    const extension = moduleFileExtensions.find(extension =>
-        fs.existsSync(resolveFn(`${filePath}.${extension}`))
-    );
-    
-    if (extension) {
-        return resolveFn(`${filePath}.${extension}`);
-    }
-    
-    return resolveFn(`${filePath}.js`);
-};
-
 // config after eject: we're in ./config/
 module.exports = {
     dotenv: resolveApp('.env'),
@@ -75,8 +48,6 @@ module.exports = {
     appIndexJs: resolveApp('src/index.jsx'),
     appPackageJson: resolveApp('package.json'),
     appSrc: resolveApp('src'),
-    appTsConfig: resolveApp('tsconfig.json'),
-    appJsConfig: resolveApp('jsconfig.json'),
     yarnLockFile: resolveApp('yarn.lock'),
     testsSetup: resolveApp('src/setupTests.js'),
     proxySetup: resolveApp('src/setupProxy.js'),
@@ -84,6 +55,3 @@ module.exports = {
     publicUrl: getPublicUrl(resolveApp('package.json')),
     servedPath: getServedPath(resolveApp('package.json')),
 };
-
-
-module.exports.moduleFileExtensions = moduleFileExtensions;
