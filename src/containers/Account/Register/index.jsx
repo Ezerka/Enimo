@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import RegisterForm from './components/RegisterForm';
 
-const logo = `${process.env.PUBLIC_URL}/img/logo.svg`;
+const logo = `${process.env.PUBLIC_URL}/img/Enimo.svg`;
 
 const Register = () => (
     <div className="account">

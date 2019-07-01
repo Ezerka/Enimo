@@ -8,7 +8,7 @@ import ChangeInCost from './components/ChangeInCost'
 import EnergyIntensity from './components/EnergyIntensity'
 import firebase from './../../../firebase'
 import ActiveMachines from './components/ActiveMachines'
-import PowerTimeCosnumption from './components/PowerTimeConsumption'
+import PowerTimeConsumption from './components/PowerTimeConsumption'
 
 class HomeDashboard extends React.Component {
     constructor(props) {
@@ -98,7 +98,7 @@ class HomeDashboard extends React.Component {
 
                 </Row>
                 <Row md={12}>
-                    <PowerTimeCosnumption Data={this.state.solar_report}/>
+                    <PowerTimeConsumption Data={this.state.solar_report}/>
 
                     {/*//<LiveUsage GraphData = {this.state.graph_data}/>*/}
                 </Row>

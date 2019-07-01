@@ -1,30 +1,27 @@
 import React from 'react';
-import Form from './components/Form';
-import ShowResults from './components/Show.jsx'
-import ParticleBackground from "./components/Particle";
-import {BrowserRouter} from "react-router-dom";
+import LogInForm from './components/LogInForm';
+import Particles from './components/Particle'
 
-const logo = `${process.env.PUBLIC_URL}/img/logo.svg`;
+const logo = `${process.env.PUBLIC_URL}/img/Enimo.png`;
 
 const LogIn = () => (
-    <BrowserRouter>
-        <div>
-            <ParticleBackground/>
-            <div className="account">
-                <div className="account__wrapper">
-                    <div className="account__card">
+    <div>
+        <Particles/>
+        <div className="account">
+            <div className="account__wrapper">
+                <div className="account__card">
+                    <div className="account__head">
                         <h3 className="account__title text-center">
-                            <img style={{align: "center", width: "50%",}} src={logo}
-                                 alt="Logo"/>
+                            <img style={{align: "center", width: "50%",}} src={logo} alt="Logo"/>
                             <span className="account__logo">
                         </span>
                         </h3>
-                        <Form onSubmit={ShowResults}/>
                     </div>
+                    <LogInForm onSubmit/>
                 </div>
             </div>
         </div>
-    </BrowserRouter>
+    </div>
 );
 
 export default LogIn;
