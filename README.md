@@ -2,7 +2,6 @@
 
 
 
-
 ## Technology Stack
 The Enimo is purely built in **ReactJS** with some other dependencies which are given below: 
 
@@ -13,6 +12,7 @@ The Enimo is purely built in **ReactJS** with some other dependencies which are 
 4. **ParticleJS** for making the UI More attractive.
 5. **FontAwesomeIcons, Weather Icons, LinearIcons** are the different types of icons used in the project.
 6. **SCSS**: Instead of the normal CSS, we have used **SCSS** which be very useful in changing the color of the dashboard. 
+7. **Bootstrap, Reactstrap**: For making the whole project responsive to the screen size of the device.
 ### Different API's:
 1. **Solcast API**: This API tells the amount of solar energy which should be generated on a specific day and we compared this amount with the actual solar energy which should be generated.
 
