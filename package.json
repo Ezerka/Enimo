@@ -1,8 +1,7 @@
 {
-    "name": "enimo",
-    "version": "2.0.0",
+    "name": "Enimo",
+    "version": "2.1.1",
     "private": true,
-    "homepage": "http://enimo.ezerka.in",
     "dependencies": {
         "@material-ui/core": "^3.1.2",
         "@mdi/font": "^2.8.94",
@@ -12,6 +11,7 @@
         "chalk": "2.4.1",
         "chart.js": "^2.7.2",
         "classnames": "^2.2.6",
+        "dns": "file:./src/mock/dns",
         "dotenv": "6.0.0",
         "dotenv-expand": "4.2.0",
         "draft-js": "^0.10.5",
@@ -97,8 +97,7 @@
     "scripts": {
         "start": "node scripts/start.js",
         "build": "node scripts/build.js",
-        "test": "node scripts/test.js",
-        "electron": "electron ."
+        "test": "node scripts/test.js"
     },
     "devDependencies": {
         "@babel/core": "7.1.0",
@@ -120,7 +119,6 @@
         "eslint-plugin-import": "2.14.0",
         "eslint-plugin-jsx-a11y": "6.1.1",
         "eslint-plugin-react": "7.11.1",
-        "electron": "^5.0.6",
         "node-sass": "^4.9.3",
         "react-hot-loader": "^4.3.4",
         "sass-loader": "^7.1.0",
@@ -138,7 +136,6 @@
         "not ie <= 11",
         "not op_mini all"
     ],
-    "main": "./main.js",
     "jest": {
         "collectCoverageFrom": [
             "src/**/*.{js,jsx}"

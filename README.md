@@ -1,43 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Introduction  to Enimo
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technology Stack
+The Enimo is purely built in **ReactJS** with some other dependencies which are given below: 
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Front-End Stack: 
+1. **Redux** is used to handle the different states in the project. 
+2. **ChartJS, ReCharts** are for handling the data provided and visualize them.
+3. **React-Router** is used to switch from one link to another link.
+4. **ParticleJS** for making the UI More attractive.
+5. **FontAwesomeIcons, Weather Icons, LinearIcons** are the different types of icons used in the project.
+6. **SCSS**: Instead of the normal CSS, we have used **SCSS** which be very useful in changing the color of the dashboard. 
+### Different API's:
+1. **Solcast API**: This API tells the amount of solar energy which should be generated on a specific day and we compared this amount with the actual solar energy which should be generated.
 
-### `npm test`
+2. **OpenWeatherMap API**: This API fetches the weather for the given current location.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Axios Library**: We have used the Axios library to fetch the data from all of the API's
 
-### `npm run build`
+4. **ElectronJS**: The ElectronJs was used to create cross-platform desktop applications. 
+### Back-End Stack:
+1. **NoSQL Database**: We have used the cloud firestore as the database for the project. It can be easily configured and fetches the data very fast. 
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Cloud**: As all the data from the hardware component is sent to the cloud, we have all the data analysis algorithm present in the cloud. The insights are then sent to the database.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+ ## Installation
+Use the package manager [yarn](https://yarnpkg.com/lang/en/docs/install/#windows-stable) to install the yarn in your system.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+After **cloning the repo** to your system, change the **directory of the command prompt** to the repo.
 
-### `npm run eject`
+### 1. Yarn Install:
+The **yarn install** command is used to install all the different dependencies which are present in the project.
+```bash
+yarn install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 2. Yarn Start:
+The **yarn start** command is used to start the project after installing all the dependencies.
+```bash
+yarn start
+```
+ Open **http://localhost:3000** to view it in the browser.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Video:
+The explanation of the project is briefly done in this [Video](https://youtu.be/_r7YCbJWhaY)
+### Demo:
+You can see the demo of the project at [Enimo](http://enimo.ezerka.in) and make sure to adjust the zoom of the browser
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
+## Learn More About React Below
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
@@ -62,7 +75,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 ### Deployment
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
