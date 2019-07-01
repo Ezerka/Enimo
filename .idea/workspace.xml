@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1e2e8ea-67e4-4850-874d-7797abcf5b66" name="Default Changelist" comment="">
+    <list default="true" id="c1e2e8ea-67e4-4850-874d-7797abcf5b66" name="Default Changelist" comment="72: Changed the build.js file">
       <change afterPath="$PROJECT_DIR$/src/containers/App/App.test.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/containers/App/MainWrapper.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/containers/App/ScrollToTop.jsx" afterDir="false" />
@@ -245,73 +245,6 @@
       <change beforePath="$PROJECT_DIR$/src/containers/Weather/index.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/sidebarReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/sidebarReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/themeReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/themeReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base/scaffolding.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/scaffolding.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/alert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/calendar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/calendar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/catalog_item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/catalog_item.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/chat.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/chat.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/check-box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/check-box.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/collapse.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/collapse.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/color-picker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/color-picker.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/customizer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/customizer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/date-picker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/date-picker.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/dropzone.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/dropzone.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/edit-table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/edit-table.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/email-confirmation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/email-confirmation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/gallery.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/inbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/inbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/load.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/load.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/map.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/material-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/material-form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/material-table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/material-table.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/notification.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/notification.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/panel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/popover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/pricing-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/pricing-card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/product-gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/product-gallery.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/progress-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/progress-bar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/project-member.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/project-member.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/radio-btn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/radio-btn.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/react-select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/react-select.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/scroll.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/scroll.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/search-result.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/search-result.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/select-options.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/select-options.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/sidebar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/table.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/tabs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/text-editor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/text-editor.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/time-picker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/time-picker.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/timeline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/timeline.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/todo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/todo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/toggle-btn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/toggle-btn.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/tooltip.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/component/wizard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/component/wizard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/containers/account.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/containers/account.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/containers/cart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/containers/cart.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/containers/dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/containers/dashboard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/containers/documentation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/containers/documentation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/containers/invoice.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/containers/invoice.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/containers/landing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/containers/landing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/containers/not-found.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/containers/not-found.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/containers/payment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/containers/payment.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/containers/product-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/containers/product-card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/containers/product-edit.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/containers/product-edit.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/containers/products-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/containers/products-list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/containers/profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/containers/profile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/containers/project-summary.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/containers/project-summary.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/generic/normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/generic/normalize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/settings/variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/settings/variable.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/vendor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/vendor.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/CheckBox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/form/CheckBox.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/img/404.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/proptypes/ReducerProps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/prop-types/ReducerProps.js" afterDir="false" />
@@ -385,11 +318,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -643,7 +573,7 @@
       <workItem from="1561875290503" duration="16486000" />
       <workItem from="1561900254289" duration="11619000" />
       <workItem from="1561924336069" duration="5024000" />
-      <workItem from="1561980378439" duration="6199000" />
+      <workItem from="1561980378439" duration="6410000" />
     </task>
     <task id="LOCAL-00001" summary="61: Modified the package.json">
       <created>1561865250666</created>
@@ -736,11 +666,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561997205354</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="73:  Edited the scss files.">
+      <created>1562000844268</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1562000844268</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45031000" />
+    <option name="totallyTimeSpent" value="45242000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -755,7 +692,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2777027" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2777027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -770,7 +707,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32884902" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006757" side_tool="true" weight="0.32884902" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.5006757" side_tool="true" visible="true" weight="0.32884902" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932432" weight="0.32884902" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -807,7 +744,8 @@
     <MESSAGE value="70: Changed the content in the config files." />
     <MESSAGE value="71: Added the Enimo.png and modified the html file." />
     <MESSAGE value="72: Changed the build.js file" />
-    <option name="LAST_COMMIT_MESSAGE" value="72: Changed the build.js file" />
+    <MESSAGE value="73:  Edited the scss files." />
+    <option name="LAST_COMMIT_MESSAGE" value="73:  Edited the scss files." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1158,11 +1096,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
         </state>
       </provider>
     </entry>
