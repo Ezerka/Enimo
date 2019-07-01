@@ -1,9 +1,8 @@
-import PropTypes from "prop-types";
-import {Link} from "react-router-dom";
 import React, {PureComponent} from 'react';
+import PropTypes from 'prop-types';
+import {Link} from 'react-router-dom';
 
-
-class TopbarMenu extends PureComponent {
+export default class TopbarMenuLinks extends PureComponent {
     static propTypes = {
         title: PropTypes.string.isRequired,
         icon: PropTypes.string.isRequired,
@@ -21,5 +20,3 @@ class TopbarMenu extends PureComponent {
         );
     }
 }
-
-export default TopbarMenu

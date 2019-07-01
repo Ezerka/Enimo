@@ -1,29 +1,27 @@
 import React, {PureComponent} from 'react';
-import PropTypes from 'prop-types';
 import {Link} from 'react-router-dom';
-
-import TopbarButton from './TopbarButton'
-import TopbarProfile from './TopbarProfile'
-
+import PropTypes from 'prop-types';
+import TopbarSidebarButton from './TopbarSidebarButton';
+import TopbarProfile from './TopbarProfile';
 
 class Topbar extends PureComponent {
     static propTypes = {
-        modifyMobileSidebarVisibility: PropTypes.func.isRequired,
-        modifySidebarVisibility: PropTypes.func.isRequired,
+        changeMobileSidebarVisibility: PropTypes.func.isRequired,
+        changeSidebarVisibility: PropTypes.func.isRequired,
     };
 
     render() {
-        const {modifyMobileSidebarVisibility, modifySidebarVisibility} = this.props;
-
+        const {changeMobileSidebarVisibility, changeSidebarVisibility} = this.props;
+        
         return (
             <div className="topbar">
                 <div className="topbar__wrapper">
                     <div className="topbar__left">
-                        <TopbarButton
-                            modifyMobileSidebarVisibility={modifyMobileSidebarVisibility}
-                            modifySidebarVisibility={modifySidebarVisibility}
+                        <TopbarSidebarButton
+                            changeMobileSidebarVisibility={changeMobileSidebarVisibility}
+                            changeSidebarVisibility={changeSidebarVisibility}
                         />
-                        <Link className="topbar__logo" to="/"/>
+                        <Link className="topbar__logo" to="/dashboard_default"/>
                     </div>
                     <div className="topbar__right">
                         <TopbarProfile/>
@@ -33,6 +31,5 @@ class Topbar extends PureComponent {
         );
     }
 }
-
 
 export default Topbar;

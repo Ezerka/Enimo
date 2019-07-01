@@ -1,7 +1,7 @@
-import {NavLink} from "react-router-dom";
-import {Badge} from "reactstrap";
-import PropTypes from "prop-types";
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
+import {Badge} from 'reactstrap';
+import {NavLink} from 'react-router-dom';
 
 const SidebarLink = ({
                          title, icon, newLink, route, onClick,
@@ -37,4 +37,4 @@ SidebarLink.defaultProps = {
     },
 };
 
-export default SidebarLink
+export default SidebarLink;

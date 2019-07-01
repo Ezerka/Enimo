@@ -2,127 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1e2e8ea-67e4-4850-874d-7797abcf5b66" name="Default Changelist" comment="76">
-      <change afterPath="$PROJECT_DIR$/src/containers/App/App.test.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/App/MainWrapper.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/App/ScrollToTop.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/App/YM.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/App/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/AppliancesDashboard/Appliance1/components/LiveStatusText.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/AppliancesDashboard/Appliance1/components/MachineConsumption.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/AppliancesDashboard/Appliance1/components/OpenTheWarningModel.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/AppliancesDashboard/Appliance1/components/UsageStatusText.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/AppliancesDashboard/Appliance1/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/AppliancesDashboard/Appliance2/components/LiveStatusText.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/AppliancesDashboard/Appliance2/components/MachineConsumption.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/AppliancesDashboard/Appliance2/components/OpenTheWarningModel.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/AppliancesDashboard/Appliance2/components/UsageStatusText.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/AppliancesDashboard/Appliance2/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/BookingCancels.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/Occupancy.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/OccupancyTooltipContent.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/OurMission.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/Reservations.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/TimelineHistory.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/TotalBookings.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/TotalCustomers.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/TotalProfitEarned.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/components/WeeklyStat.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/ActiveMachines.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/ChangeInCost.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/Cost.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/Efficiency.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/EnergyIntensity.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/LiveUsage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/LiveUsageInput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/LiveUsageOutput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/PowerTimeConsumption.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/SolarEnergy.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/cta.kml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/silverMapStyle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/components/ActiveUsers.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/components/ActiveUsersShort.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/components/AppTileClicks.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/components/CurrentUsers.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/components/NewUsersShort.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/components/PageViewsShort.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/components/SessionShort.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/components/SocialMarketing.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/components/WeeklyStatMobile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/AnimatedProgressBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/BadPerformance.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/BasicCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/BudgetStatistic.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/Emails.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/GoodPerformance.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/MyTodos.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/NetUsage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/NewOrders.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/OrdersToday.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/OurMission.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/ProductSales.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/RecentOrders.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/Reservations.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/SalesStatistic.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/SalesStatistisBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/Savings.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/ShortReminders.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/SmallBars.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/SolarEnergyProduction.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/SolarEnergyUsage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/Subscriptions.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/ToDo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/TopSellingProducts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/TotalConsumption.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/TotalProducts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/components/TotalProfit.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/SolarDashboard/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/BCH.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/BTC.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/BtcEth.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/BuyBTC.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/CryptotrendsToday.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/ETH.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/EnergyConsumedTabs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/PlaceOrder.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/SalesStatistisBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/SellBTC.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/SolarProducedTabs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/TopTen.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/TradeHistory.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/components/XRP.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboards/UsageDashboard/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/404/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Calendar/components/BigCalendar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Calendar/components/EventLabels.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Calendar/components/events.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Calendar/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Faq/components/FAQs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Faq/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Gallery/components/FilterGallery.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Gallery/components/Gallery.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Gallery/components/imgs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/Gallery/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/InvoiceTemplate/components/InvoiceTemplate.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/InvoiceTemplate/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/PricingCards/components/CardBasic.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/PricingCards/components/CardPremium.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/PricingCards/components/CardPro.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/PricingCards/components/CardSpecial.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/PricingCards/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/ProjectSummary/components/ProjectMember.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/ProjectSummary/components/ProjectTeam.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/ProjectSummary/components/Statistics.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/ProjectSummary/components/Summary.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/ProjectSummary/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/SearchResults/components/SearchHere.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/SearchResults/components/SearchResult.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/SearchResults/components/results.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/SearchResults/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/TextEditor/components/Editor.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultPage/TextEditor/index.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/containers/Layout/customizer/Customizer.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/containers/Layout/customizer/ToggleCollapsedMenu.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/containers/Layout/customizer/ToggleShadow.jsx" afterDir="false" />
@@ -152,27 +31,6 @@
       <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/tobar_nav/TopbarNavOtherPages.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/tobar_nav/TopbarNavUIElements.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Account/EmailConfimation/components/EmailConfirmationCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/EmailConfimation/components/EmailConfirmationCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Account/LockScreen/components/LockScreenForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/LockScreen/components/LockScreenForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Account/LogIn/components/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/LogIn/components/Form.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Account/LogIn/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/LogIn/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileActivities.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileActivities.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileActivity.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileActivity.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileMain.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileMain.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileSettings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileSettings.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileTabs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileTabs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileTasks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileTasks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileTimeLine.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/Profile/components/ProfileTimeLine.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Account/Register/components/RegisterForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/Register/components/RegisterForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Account/Register/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/Register/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Account/RegisterPhoto/components/RegisterForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/RegisterPhoto/components/RegisterForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Account/log_in_photo/components/LogInForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/log_in_photo/components/LogInForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App/Router.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App/Router.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App/Wrapper.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App/store.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HomeDashboard/components/PowerConsumption.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/EnergyConsumption.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HomeDashboard/components/VoltageCurrentCharts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/VoltageCurrentCharts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Layout/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Layout/sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/sidebar/Sidebar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Layout/sidebar/SidebarCategory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/sidebar/SidebarCategory.jsx" afterDir="false" />
@@ -252,8 +110,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="126">
+              <caret line="95" column="37" lean-forward="true" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -326,7 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/scss/base/typography.scss" />
         <option value="$PROJECT_DIR$/src/containers/2/index.jsx" />
         <option value="$PROJECT_DIR$/src/containers/App/Router.jsx" />
         <option value="$PROJECT_DIR$/src/containers/MachinesDashboard/machine1/index.jsx" />
@@ -377,6 +234,7 @@
         <option value="$PROJECT_DIR$/public/load.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/index.jsx" />
       </list>
     </option>
   </component>
@@ -507,7 +365,7 @@
       <workItem from="1561875290503" duration="16486000" />
       <workItem from="1561900254289" duration="11619000" />
       <workItem from="1561924336069" duration="5024000" />
-      <workItem from="1561980378439" duration="6651000" />
+      <workItem from="1561980378439" duration="7019000" />
     </task>
     <task id="LOCAL-00001" summary="61: Modified the package.json">
       <created>1561865250666</created>
@@ -628,11 +486,39 @@
       <option name="project" value="LOCAL" />
       <updated>1562001124150</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="77: Added the dashboard's in the dashboard's folder.">
+      <created>1562001210847</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1562001210847</updated>
+    </task>
+    <task id="LOCAL-00019" summary="78: Created login pages and the other landing pages.">
+      <created>1562001298877</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1562001298877</updated>
+    </task>
+    <task id="LOCAL-00020" summary="79: Modified the App files folder">
+      <created>1562001340196</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1562001340196</updated>
+    </task>
+    <task id="LOCAL-00021" summary="80: Added the default pages, which has some required pages but not in the build">
+      <created>1562001433844</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1562001433844</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45483000" />
+    <option name="totallyTimeSpent" value="45851000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -703,7 +589,11 @@
     <MESSAGE value="74: Edited the reducers." />
     <MESSAGE value="75: Added content in the  shared folder." />
     <MESSAGE value="76: Deleted the outside dashboard files." />
-    <option name="LAST_COMMIT_MESSAGE" value="76: Deleted the outside dashboard files." />
+    <MESSAGE value="77: Added the dashboard's in the dashboard's folder." />
+    <MESSAGE value="78: Created login pages and the other landing pages." />
+    <MESSAGE value="79: Modified the App files folder" />
+    <MESSAGE value="80: Added the default pages, which has some required pages but not in the build" />
+    <option name="LAST_COMMIT_MESSAGE" value="80: Added the default pages, which has some required pages but not in the build" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1054,8 +944,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="126">
+          <caret line="95" column="37" lean-forward="true" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
         </state>
       </provider>
     </entry>
