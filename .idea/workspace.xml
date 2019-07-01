@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1e2e8ea-67e4-4850-874d-7797abcf5b66" name="Default Changelist" comment="72: Changed the build.js file">
+    <list default="true" id="c1e2e8ea-67e4-4850-874d-7797abcf5b66" name="Default Changelist" comment="76">
       <change afterPath="$PROJECT_DIR$/src/containers/App/App.test.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/containers/App/MainWrapper.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/containers/App/ScrollToTop.jsx" afterDir="false" />
@@ -151,50 +151,6 @@
       <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/tobar_nav/TopbarNavLink.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/tobar_nav/TopbarNavOtherPages.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/tobar_nav/TopbarNavUIElements.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/Alert.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/Calendar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/CodeHighlither.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/Collapse.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/Expand.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/Modal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/Notification.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/Panel.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/TimeLineItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/carousel/CarouselMultiply.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/carousel/CarouselSingle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/catalog/ProductItems.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/form/BlockColorPicker.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/form/ChromeColorPicker.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/form/DatePicker.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/form/DateTimePicker.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/form/DropZone.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/form/DropZoneMultiple.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/form/FileInput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/form/IntervalDatePicker.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/form/MultiSelect.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/form/RadioButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/form/Select.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/form/SketchColorPicker.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/form/TimePicker.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/form/ToggleButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/pagination/Pagination.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/pagination/PaginationSmall.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/range_slider/Range.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/range_slider/Slider.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/table/DataPaginationTable.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/table/EditableTable.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/text-editor/TextEditor.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/img/404/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/img/404/bg_404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/img/Enimo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/prop-types/ChatProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/prop-types/EmailProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/prop-types/TablesProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/translations/de/common.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/translations/en/common.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/translations/fr/common.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/translations/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/translations/resources.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Account/EmailConfimation/components/EmailConfirmationCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/EmailConfimation/components/EmailConfirmationCard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Account/LockScreen/components/LockScreenForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/LockScreen/components/LockScreenForm.jsx" afterDir="false" />
@@ -215,14 +171,8 @@
       <change beforePath="$PROJECT_DIR$/src/containers/App/Router.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App/Router.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/App/Wrapper.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/App/store.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HistoryPage/components/CardView.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HistoryPage/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HomeDashboard/components/Cost.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HomeDashboard/components/Efficiency.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/HomeDashboard/components/PowerConsumption.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/EnergyConsumption.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HomeDashboard/components/SolarEnergy.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/HomeDashboard/components/VoltageCurrentCharts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/VoltageCurrentCharts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HomeDashboard/index.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Layout/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Layout/sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/sidebar/Sidebar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Layout/sidebar/SidebarCategory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/sidebar/SidebarCategory.jsx" afterDir="false" />
@@ -232,22 +182,6 @@
       <change beforePath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarButton.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarMenuLink.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarProfile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/LogIn/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/MachinesDashboard/components/CardView.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/MachinesDashboard/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/SettingsPage/components/CardView.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/SettingsPage/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/SolarDashboard/components/CardView.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/SolarDashboard/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/UsageDashboard/components/CardView.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/UsageDashboard/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Weather/components/Weather.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Weather/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/sidebarReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/sidebarReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/themeReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/themeReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/CheckBox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/form/CheckBox.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/img/404.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/proptypes/ReducerProps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/prop-types/ReducerProps.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -318,8 +252,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+            <state relative-caret-position="216">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -573,7 +507,7 @@
       <workItem from="1561875290503" duration="16486000" />
       <workItem from="1561900254289" duration="11619000" />
       <workItem from="1561924336069" duration="5024000" />
-      <workItem from="1561980378439" duration="6410000" />
+      <workItem from="1561980378439" duration="6651000" />
     </task>
     <task id="LOCAL-00001" summary="61: Modified the package.json">
       <created>1561865250666</created>
@@ -673,11 +607,32 @@
       <option name="project" value="LOCAL" />
       <updated>1562000844268</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="74: Edited the reducers.">
+      <created>1562000928241</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1562000928241</updated>
+    </task>
+    <task id="LOCAL-00016" summary="75: Added content in the  shared folder.">
+      <created>1562001047674</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1562001047674</updated>
+    </task>
+    <task id="LOCAL-00017" summary="76: Deleted the outside dashboard files.">
+      <created>1562001124150</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1562001124150</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45242000" />
+    <option name="totallyTimeSpent" value="45483000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -745,7 +700,10 @@
     <MESSAGE value="71: Added the Enimo.png and modified the html file." />
     <MESSAGE value="72: Changed the build.js file" />
     <MESSAGE value="73:  Edited the scss files." />
-    <option name="LAST_COMMIT_MESSAGE" value="73:  Edited the scss files." />
+    <MESSAGE value="74: Edited the reducers." />
+    <MESSAGE value="75: Added content in the  shared folder." />
+    <MESSAGE value="76: Deleted the outside dashboard files." />
+    <option name="LAST_COMMIT_MESSAGE" value="76: Deleted the outside dashboard files." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1096,8 +1054,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        <state relative-caret-position="216">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
