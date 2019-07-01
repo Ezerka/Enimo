@@ -1,6 +1,6 @@
 {
   "short_name": "Enimo",
-  "name": "enimo",
+    "name": "Enimo",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,8 +8,8 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": "./enimo",
+    "start_url": "/",
   "display": "standalone",
-  "theme_color": "#ff4861",
-  "background_color": "#ffffff"
+    "theme_color": "#ff4831",
+    "background_color": "#232328"
 }
