@@ -65,7 +65,7 @@
 
                 &, &:focus, &:hover {
                     border-radius: 0;
-                    border-top: 2px solid $color-accent;
+                    border-top: 2px solid $color-red;
                 }
             }
         }
@@ -86,7 +86,7 @@
                 &, &:focus, &:hover {
                     border-radius: 0;
                     border-color: transparent;
-                    border-bottom: 2px solid $color-accent;
+                    border-bottom: 2px solid $color-red;
                     padding-bottom: 10px;
                 }
             }
@@ -152,7 +152,7 @@
                     background-color: transparent;
 
                     @include themify($themes) {
-                        border-right-color: $color-accent;
+                        border-right-color: $color-red;
                     }
                 }
 

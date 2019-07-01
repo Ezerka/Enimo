@@ -1,14 +1,13 @@
 .account {
-    height: auto;
-    width: auto;
+    height: 100vh;
+    width: 100%;
     min-height: 100vh;
     display: flex;
-    flex-wrap: wrap;
     overflow-y: auto;
 
-    //@include themify($themes) {
-    //    background: themed('colorBackgroundBody');
-    //}
+    /*@include themify($themes) {
+      background: themed('colorBackgroundBody');
+    }*/
 
     &.account--photo {
         background: url(../shared/img/404/bg_404.png) no-repeat center;
@@ -201,7 +200,7 @@ a.account__forgot-password {
 .account__head {
     margin-bottom: 30px;
     padding-left: 10px;
-    border-left: 4px solid $color-blue;
+    //border-left: 4px solid $color-blue;
 }
 
 .account__logo {
@@ -209,10 +208,11 @@ a.account__forgot-password {
 }
 
 .account__logo-accent {
-    color: $color-blue;
+    color: $color-red;
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
 }
 
-.account__have-login {
+.account__have-account {
     text-align: center;
     margin-top: 20px;
 

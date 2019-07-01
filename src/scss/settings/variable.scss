@@ -4,7 +4,7 @@ $themes: (
                 colorBackgroundBody: #f2f4f7,
                 colorText: #646777,
                 colorTextAdditional: #646777,
-                logoImg: url(../shared/img/logo.svg),
+                logoImg: url(../shared/img/logo/Enimo.png),
                 colorHover: #fafbfe,
                 colorBorder: #eff1f5,
                 colorIcon: #dddddd,
@@ -20,7 +20,7 @@ $themes: (
                 colorBackgroundBody: #2a2a31,
                 colorText: #dddddd,
                 colorTextAdditional: #999999,
-                logoImg: url(../shared/img/logo.svg),
+                logoImg: url(../shared/img/logo/Enimo.png),
                 colorHover: #38373f,
                 colorBorder: #333246,
                 colorIcon: #605f7b,
@@ -56,13 +56,13 @@ $color-accent-hover: darken($color-accent, 10%);
 $color-additional: #999999;
 $color-additional-hover: darken($color-additional, 10%);
 
-$color-white: #ffffff;
-$color-black: #000000;
-
 $color-yellow: #f6da6e;
 $color-yellow-hover: darken($color-yellow, 10%);
 
 $color-violet: #c88ffa;
+
+$color-white: #ffffff;
+$color-black: #000000;
 
 $color-red: #ff4861;
 $color-red-hover: darken($color-red, 10%);
