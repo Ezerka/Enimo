@@ -30,8 +30,7 @@ class CheckBoxField extends PureComponent {
     };
     
     componentDidMount() {
-        const {onChange, defaultChecked} = this.props;
-        onChange(defaultChecked);
+        this.props.onChange(this.props.defaultChecked);
     }
     
     render() {
@@ -46,10 +45,9 @@ class CheckBoxField extends PureComponent {
         return (
             <label
                 className={`${CheckboxClass} ${className ? ` checkbox-btn--${className}` : ''}`}
-                htmlFor={name}
             >
                 <input
-                    className="checkbox-btn__checkbox my-auto"
+                    className="checkbox-btn__checkbox"
                     type="checkbox"
                     id={name}
                     name={name}
@@ -58,19 +56,17 @@ class CheckBoxField extends PureComponent {
                     disabled={disabled}
                 />
                 <span
-                    className="checkbox-btn__checkbox-custom "
+                    className="checkbox-btn__checkbox-custom"
                     style={color ? {background: color, borderColor: color} : {}}
                 >
           <CheckIcon/>
         </span>
-                {className === 'button'
-                    ? (
-                        <span className="checkbox-btn__label-svg my-auto">
-              <CheckIcon className="checkbox-btn__label-check"/>
-              <CloseIcon className="checkbox-btn__label-uncheck"/>
-            </span>
-                    ) : ''}
-                <span className="checkbox-btn__label my-auto">
+                {className === 'button' ?
+                    <span className="checkbox-btn__label-svg">
+            <CheckIcon className="checkbox-btn__label-check"/>
+            <CloseIcon className="checkbox-btn__label-uncheck"/>
+          </span> : ''}
+                <span className="checkbox-btn__label">
           {label}
         </span>
             </label>
@@ -78,21 +74,16 @@ class CheckBoxField extends PureComponent {
     }
 }
 
-const renderCheckBoxField = (props) => {
-    const {
-        input, label, defaultChecked, disabled, className, color,
-    } = props;
-    return (
-        <CheckBoxField
-            {...input}
-            label={label}
-            defaultChecked={defaultChecked}
-            disabled={disabled}
-            className={className}
-            color={color}
-        />
-    );
-};
+const renderCheckBoxField = props => (
+    <CheckBoxField
+        {...props.input}
+        label={props.label}
+        defaultChecked={props.defaultChecked}
+        disabled={props.disabled}
+        className={props.className}
+        color={props.color}
+    />
+);
 
 renderCheckBoxField.propTypes = {
     input: PropTypes.shape({
