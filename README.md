@@ -1,5 +1,5 @@
 ![](other/images/LogoStripe.png)
-# Introduction  to Enimo
+## Introduction  to Enimo
 
 ### Description
 
@@ -35,6 +35,8 @@ Enimo has two main objectives to complete and they are:
 
 •    Ensuring that the appliance is maintained at an optimum environment to maximize performance and life.
 
+### Flow Diagram: 
+![](other/images/FlowDiagram.png)
 
 
 ## Technology Stack
