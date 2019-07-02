@@ -58,7 +58,7 @@ The Enimo is purely built in **ReactJS** with some other dependencies which are 
 ### Back-End Stack:
 1. **NoSQL Database**: We have used the cloud firestore as the database for the project. It can be easily configured and fetches the data very fast. 
 
-2. **Cloud**: As all the data from the hardware component is sent to the cloud, we have all the data analysis algorithm present in the cloud. The insights are then sent to the database.
+2. **Cloud**: As all the data from the **hardware component** is sent to the cloud, as all the data analysis algorithms are present in the cloud. The insights from these algorithm's are then sent to the database for displaying the data in dashboard.
 
 3. **TensorFlow**: We have used tensorflow for optimizing and increasing the accuracy of the algorithms. 
 
