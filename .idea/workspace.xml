@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1e2e8ea-67e4-4850-874d-7797abcf5b66" name="Default Changelist" comment="84: Added the docs, screenshot to the application">
-      <change afterPath="$PROJECT_DIR$/other/docs/Enimo Presentation.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/screenshots/FlowDiagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/screenshots/LogoStripe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/screenshots/Start.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/screenshots/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/screenshots/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/screenshots/machine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/screenshots/middle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/screenshots/solar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/screenshots/usage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/docs/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/screenshots/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/screenshots/2.png" beforeDir="false" />
+    <list default="true" id="c1e2e8ea-67e4-4850-874d-7797abcf5b66" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/other/docs/Enimo Presentation.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/other/docs/EnimoPresentation.pptx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,7 +76,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/other/screenshots/FlowDiagram.png">
+        <entry file="file://$PROJECT_DIR$/other/images/FlowDiagram.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -371,16 +358,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Enimo\dashboard\other\images" />
+      <recent name="E:\Enimo\dashboard\src\containers" />
+      <recent name="E:\Enimo\dashboard\public\img\pricing_cards" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Enimo\dashboard\src\shared\img" />
       <recent name="E:\Enimo\dashboard\public\img" />
       <recent name="E:\Enimo\dashboard\src\containers" />
       <recent name="E:\Enimo\dashboard\src\containers\MachinesDashboard\machine1\components" />
       <recent name="E:\Enimo\dashboard\src\containers\Account" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Enimo\dashboard\src\containers" />
-      <recent name="E:\Enimo\dashboard\public\img\pricing_cards" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -559,11 +547,25 @@
       <option name="project" value="LOCAL" />
       <updated>1562001433844</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="84: Added the presentation, screenshots to the application">
+      <created>1562058381667</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1562058381667</updated>
+    </task>
+    <task id="LOCAL-00023" summary="85: Changed the directory of the images">
+      <created>1562058507022</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1562058507022</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47460000" />
+    <option name="totallyTimeSpent" value="48238000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -677,7 +679,9 @@
     <MESSAGE value="78: Created login pages and the other landing pages." />
     <MESSAGE value="79: Modified the App files folder" />
     <MESSAGE value="80: Added the default pages, which has some required pages but not in the build" />
-    <option name="LAST_COMMIT_MESSAGE" value="80: Added the default pages, which has some required pages but not in the build" />
+    <MESSAGE value="84: Added the presentation, screenshots to the application" />
+    <MESSAGE value="85: Changed the directory of the images" />
+    <option name="LAST_COMMIT_MESSAGE" value="85: Changed the directory of the images" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -910,7 +914,7 @@
     <entry file="file://$PROJECT_DIR$/src/shared/img/logo/logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/other/screenshots/FlowDiagram.png">
+    <entry file="file://$PROJECT_DIR$/other/images/FlowDiagram.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
