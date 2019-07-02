@@ -1,3 +1,4 @@
+
 # Introduction  to Enimo
 
 ### Description
@@ -8,14 +9,14 @@ The World is in a transition phase and energy is central to it. India has been r
 ### Problem Statement:
 
 
-In today’s era, Households occupy a major percentage of the electrical energy. With the increase in the population, the requirement of the electricity keeps on increasing. So there is a constant need for a system which help in decreasing the consumption of electricity and find the energy wastage in the household. Industries usually have the monthly energy audits. However, the households don't have the energy audits.
+In today’s era, Households occupy a major percentage of electrical energy. With the increase in the population, the requirement of the electricity keeps on increasing. So there is a constant need for a system which helps in decreasing the consumption of electricity and find the energy wastage in the household. Industries usually have monthly energy audits. However, the households don't have the energy audits.
 
 
 
-### Benefits of having a Energy Monitoring System(ENIMO):
+### Benefits of having an Energy Monitoring System(ENIMO):
 
 
-•    Reduces cost by analyzing the amount of data actually required and the amount of energy being consumed. The  Dashboard provides the information and recommendation model which gives necessary tips observing the patterns.
+•    Reduces cost by analyzing the amount of data required and the amount of energy being consumed. The  Dashboard provides the information and recommendation model which gives necessary tips observing the patterns.
 
 •    24/7 alarm notifications allow you or your Family to respond quickly to appliance issues.
 
@@ -48,7 +49,7 @@ The Enimo is purely built in **ReactJS** with some other dependencies which are 
 6. **SCSS**: Instead of the normal CSS, we have used **SCSS** which be very useful in changing the color of the dashboard. 
 7. **Bootstrap, Reactstrap**: For making the whole project responsive to the screen size of the device.
 ### Different API's:
-1. **Solcast API**: This API tells the amount of solar energy which should be generated on a specific day and we compared this amount with the actual solar energy which should be generated.
+1. **Solcast API**: This API tells the amount of solar energy which can be generated on a  sunny day. The estimated solar energy  is compared with the actual solar energy  produced by the households.
 
 2. **OpenWeatherMap API**: This API fetches the weather for the given current location.
 
