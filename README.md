@@ -81,9 +81,9 @@ yarn start
  Open **http://localhost:3000** to view it in the browser.
 
 
-### Video:
+## Video:
 The explanation of the project is briefly done in this [Video](https://youtu.be/_r7YCbJWhaY)
-### Demo:
+## Demo:
 You can see the demo of the project at [Enimo](http://enimo.ezerka.in) and make sure to adjust the zoom of the browser
 
 ## Learn More About React Below
