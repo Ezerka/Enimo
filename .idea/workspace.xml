@@ -1,45 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1e2e8ea-67e4-4850-874d-7797abcf5b66" name="Default Changelist" comment="76">
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/customizer/Customizer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/customizer/ToggleCollapsedMenu.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/customizer/ToggleShadow.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/customizer/ToggleSquared.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/customizer/ToggleTheme.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/customizer/ToggleTopMenu.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarLanguage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarMail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarNotification.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarSearch.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarSidebarButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarLanguage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarMail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarMenuLink.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarNotification.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarProfile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarSidebarButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarWithNavigation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/sidebar_mobile/SidebarCategory.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/sidebar_mobile/SidebarContent.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/sidebar_mobile/SidebarLink.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/sidebar_mobile/SidebarMobile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/tobar_nav/TopbarNav.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/tobar_nav/TopbarNavCategory.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/tobar_nav/TopbarNavDashboards.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/tobar_nav/TopbarNavLink.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/tobar_nav/TopbarNavOtherPages.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/tobar_nav/TopbarNavUIElements.jsx" afterDir="false" />
+    <list default="true" id="c1e2e8ea-67e4-4850-874d-7797abcf5b66" name="Default Changelist" comment="84: Added the docs, screenshot to the application">
+      <change afterPath="$PROJECT_DIR$/other/docs/Enimo Presentation.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/screenshots/FlowDiagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/screenshots/LogoStripe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/screenshots/Start.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/screenshots/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/screenshots/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/screenshots/machine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/screenshots/middle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/screenshots/solar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/screenshots/usage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Layout/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Layout/sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/sidebar/Sidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Layout/sidebar/SidebarCategory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/sidebar/SidebarCategory.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Layout/sidebar/SidebarContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/sidebar/SidebarContent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Layout/sidebar/SidebarLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/sidebar/SidebarLink.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Layout/topbar/Topbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/topbar/Topbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarButton.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarMenuLink.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/topbar/TopbarProfile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/docs/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/screenshots/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/screenshots/2.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,38 +35,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/load.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/component/load.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/img/profile_image.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarProfile.jsx">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarSidebarButton.jsx">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarWithNavigation.jsx">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/sidebar_mobile/SidebarCategory.jsx">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/sidebar_mobile/SidebarContent.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="243">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,21 +70,32 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="404">
-                <caret line="72" column="27" lean-forward="true" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+              <first_editor relative-caret-position="350">
+                <caret line="107" column="26" selection-end-line="114" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shared/img/logo.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shared/img/logo/logo.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="95" column="37" lean-forward="true" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/other/screenshots/FlowDiagram.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/screenshots/home.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -179,6 +161,7 @@
         <option value="Ashfaq Nisar &lt;ashfaqnisar00@gmail.com&gt;" />
       </list>
     </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -263,13 +246,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
@@ -297,11 +296,57 @@
               <item name="Dashboards" type="462c0819:PsiDirectoryNode" />
               <item name="HomeDashboard" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Layout" type="462c0819:PsiDirectoryNode" />
+              <item name="topbar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Layout" type="462c0819:PsiDirectoryNode" />
+              <item name="topbar_with_navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Layout" type="462c0819:PsiDirectoryNode" />
+              <item name="topbar_with_navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="sidebar_mobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -518,7 +563,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45851000" />
+    <option name="totallyTimeSpent" value="47460000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -531,9 +576,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2777027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2777027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -548,11 +592,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32884902" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.5006757" side_tool="true" visible="true" weight="0.32884902" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006757" side_tool="true" visible="true" weight="0.32884902" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932432" weight="0.32884902" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32884902" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -569,6 +613,46 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -599,37 +683,8 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/containers/MachinesDashboard/machine1/components/MachineConsumption.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/components/Panel.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/i18next/dist/es/i18next.js" />
-    <entry file="file://$PROJECT_DIR$/src/containers/UsageDashboard/components/EnergyConsumedTabs.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/UsageDashboard/components/EnergyConsumedTabs.jsx" />
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -660,51 +715,16 @@
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/SolarDashboard/components/BadPerformance.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/SolarDashboard/components/SmallBars.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/SolarDashboard/components/SolarEnergyUsage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/SolarDashboard/components/BadPerformance.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/containers/SolarDashboard/components/SmallBars.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/containers/SolarDashboard/components/SolarEnergyUsage.jsx" />
     <entry file="file://$PROJECT_DIR$/src/shared/img/404/bg_404.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/shared/img/404/404.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/SolarDashboard/components/TotalProducts.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-          <folding>
-            <element signature="e#46#89#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/SolarDashboard/components/TotalProducts.jsx" />
     <entry file="file://$PROJECT_DIR$/src/firebase.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -826,38 +846,12 @@
     <entry file="file://$PROJECT_DIR$/src/scss/weather/mappings/wi-owm.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/SolarDashboard/components/SolarEnergyProduction.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/SolarDashboard/components/SolarEnergyProduction.jsx" />
     <entry file="file://$PROJECT_DIR$/src/scss/weather/weather-icons.min.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HomeDashboard/components/VoltageCurrentCharts.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HomeDashboard/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2187">
-          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/HomeDashboard/components/VoltageCurrentCharts.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/containers/HomeDashboard/index.jsx" />
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1134">
@@ -879,46 +873,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/SolarDashboard/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HomeDashboard/components/SolarEnergy.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="16" selection-start-line="16" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HomeDashboard/components/PowerTimeConsumption.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HomeDashboard/components/EnergyConsumption.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="5" selection-end-line="47" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/SolarDashboard/index.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/containers/HomeDashboard/components/SolarEnergy.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/containers/HomeDashboard/components/PowerTimeConsumption.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/containers/HomeDashboard/components/EnergyConsumption.jsx" />
     <entry file="file://$PROJECT_DIR$/public/img/profile_image.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -935,8 +893,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="404">
-            <caret line="72" column="27" lean-forward="true" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+          <first_editor relative-caret-position="350">
+            <caret line="107" column="26" selection-end-line="114" />
           </first_editor>
           <second_editor />
         </state>
@@ -948,6 +906,12 @@
           <caret line="95" column="37" lean-forward="true" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/img/logo/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/screenshots/FlowDiagram.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
