@@ -83,6 +83,8 @@ yarn start
 ```
  Open **http://localhost:3000** to view it in the browser.
 
+## Presentation:
+The presentation of the project is [here](other/docs/Enimo Presentation.pptx)
 
 ## Video:
 The explanation of the project is briefly done in this [Video](https://youtu.be/_r7YCbJWhaY)
