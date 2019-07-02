@@ -1,4 +1,4 @@
-
+![](other/images/LogoStripe.png)
 # Introduction  to Enimo
 
 ### Description
