@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1e2e8ea-67e4-4850-874d-7797abcf5b66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/other/docs/Enimo Presentation.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/other/docs/EnimoPresentation.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +22,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarProfile.jsx">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarSidebarButton.jsx">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -44,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/sidebar_mobile/SidebarContent.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
+            <state relative-caret-position="162">
               <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -57,8 +52,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="350">
-                <caret line="107" column="26" selection-end-line="114" />
+              <first_editor relative-caret-position="2997">
+                <caret line="111" column="26" selection-end-line="118" />
               </first_editor>
               <second_editor />
             </state>
@@ -75,8 +70,13 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/other/images/FlowDiagram.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/other/images/LogoStripe.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -233,6 +233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -333,7 +334,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -399,6 +399,7 @@
       <workItem from="1561900254289" duration="11619000" />
       <workItem from="1561924336069" duration="5024000" />
       <workItem from="1561980378439" duration="7019000" />
+      <workItem from="1562242484554" duration="3038000" />
     </task>
     <task id="LOCAL-00001" summary="61: Modified the package.json">
       <created>1561865250666</created>
@@ -561,11 +562,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562058507022</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="86: Changed the name of the presentation.">
+      <created>1562066859168</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1562066859206</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48238000" />
+    <option name="totallyTimeSpent" value="52194000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -579,7 +587,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2777027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28243244" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -594,7 +602,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32884902" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006757" side_tool="true" visible="true" weight="0.32884902" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006757" side_tool="true" weight="0.32884902" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932432" weight="0.32884902" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -681,45 +689,13 @@
     <MESSAGE value="80: Added the default pages, which has some required pages but not in the build" />
     <MESSAGE value="84: Added the presentation, screenshots to the application" />
     <MESSAGE value="85: Changed the directory of the images" />
-    <option name="LAST_COMMIT_MESSAGE" value="85: Changed the directory of the images" />
+    <MESSAGE value="86: Changed the name of the presentation." />
+    <option name="LAST_COMMIT_MESSAGE" value="86: Changed the name of the presentation." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/i18next/dist/es/i18next.js" />
-    <entry file="file://$PROJECT_DIR$/src/containers/UsageDashboard/components/EnergyConsumedTabs.jsx" />
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/containers/not-found.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/App/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/SolarDashboard/components/BadPerformance.jsx" />
     <entry file="file://$PROJECT_DIR$/src/containers/SolarDashboard/components/SmallBars.jsx" />
     <entry file="file://$PROJECT_DIR$/src/containers/SolarDashboard/components/SolarEnergyUsage.jsx" />
     <entry file="file://$PROJECT_DIR$/src/shared/img/404/bg_404.png">
@@ -894,16 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="350">
-            <caret line="107" column="26" selection-end-line="114" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -911,10 +877,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarProfile.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarSidebarButton.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/TopbarWithNavigation.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/sidebar_mobile/SidebarCategory.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Layout/topbar_with_navigation/sidebar_mobile/SidebarContent.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2997">
+            <caret line="111" column="26" selection-end-line="118" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/img/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/shared/img/logo/logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/other/screenshots/home.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/other/images/FlowDiagram.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/images/LogoStripe.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
