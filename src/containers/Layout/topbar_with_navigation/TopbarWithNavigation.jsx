@@ -6,7 +6,7 @@ import TopbarProfile from './TopbarProfile';
 import TopbarMail from './TopbarMail';
 import TopbarLanguage from './TopbarLanguage';
 import TopbarNotification from './TopbarNotification';
-import TopbarNav from './tobar_nav/TopbarNav';
+import TopbarNav from './topbar_nav/TopbarNav';
 
 export default class TopbarWithNavigation extends PureComponent {
     static propTypes = {

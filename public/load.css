@@ -2,7 +2,6 @@
     animation: linear load 2s infinite;
     width: 32px;
     color: #ff4861;
-    background: #2a2a31;
     height: 32px;
 }
 
@@ -11,6 +10,7 @@
 }
 
 .load {
+    background: #232329;
     height: calc(100vh - 16px);
     width: 100%;
     display: flex;

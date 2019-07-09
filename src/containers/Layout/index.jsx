@@ -10,7 +10,6 @@ import TopbarWithNavigation from './topbar_with_navigation/TopbarWithNavigation'
 import Sidebar from './sidebar/Sidebar';
 import SidebarMobile from './topbar_with_navigation/sidebar_mobile/SidebarMobile';
 import Customizer from './customizer/Customizer';
-import {BasicNotification} from '../../shared/components/Notification';
 import {
     changeMobileSidebarVisibility,
     changeSidebarVisibility
@@ -27,11 +26,6 @@ let notification = null;
 
 const showNotification = () => {
     notification.notice({
-        content:
-            <BasicNotification
-                title="👋 Welcome to Zenco!"
-                message="You have successfully logged into Zenco. Start exploring the Awesome Dashboard"
-            />,
         duration: 5,
         closable: true,
         style: {top: 0, left: 'calc(100vw - 100%)'},

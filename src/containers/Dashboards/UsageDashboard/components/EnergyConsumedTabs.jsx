@@ -4,7 +4,7 @@ import {Card, CardBody, Col, Nav, NavItem, NavLink, TabContent, TabPane} from 'r
 import classnames from 'classnames';
 import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
-import Modal from '../../../../shared/components/Modal';
+// import Modal from '../../../../shared/components/Modal';
 
 const dataMonthly = [
     {name: 'Jan', Energy: 4000},
@@ -65,22 +65,22 @@ const dataYearly = [
     {name: '2019', Energy: 2000},
 ];
 
-function OpenTheWarningModel() {
-    if (true) {
-        return (
-            <React.Fragment>
-                <Modal
-                    color="warning"
-                    title="Stop!"
-                    colored
-                    toggle={true}
-                    message="Machine-1(OES0045) stopped working suddenly"
-                />
-            </React.Fragment>
+// function OpenTheWarningModel() {
+//     if (true) {
+//         return (
+//             <React.Fragment>
+//                 <Modal
+//                     color="warning"
+//                     title="Stop!"
+//                     colored
+//                     toggle={true}
+//                     message="Machine-1(OES0045) stopped working suddenly"
+//                 />
+//             </React.Fragment>
 
-        )
-    }
-};
+//         )
+//     }
+// };
 
 class EnergyConsumedTabs extends PureComponent {
     static propTypes = {

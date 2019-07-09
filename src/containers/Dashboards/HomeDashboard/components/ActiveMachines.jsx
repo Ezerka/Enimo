@@ -4,7 +4,7 @@ import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import Panel from '../../../../shared/components/Panel';
 import {Link} from "react-router-dom";
-import Modal from '../../../../shared/components/Modal';
+// import Modal from '../../../../shared/components/Modal';
 
 const ActiveMachines = (props) => {
     return (
@@ -14,22 +14,22 @@ const ActiveMachines = (props) => {
     )
 };
 
-function OpenTheDangerModal(consumption) {
-    if (consumption > 10) {
-        return (
-            <React.Fragment>
-                <Modal
-                    color="danger"
-                    title="Stop!"
-                    colored
-                    toggle={true}
-                    message="The voltage of the machine 1 is very much high please check this machine."
-                />
-            </React.Fragment>
+// function OpenTheDangerModal(consumption) {
+//     if (consumption > 10) {
+//         return (
+//             <React.Fragment>
+//                 <Modal
+//                     color="danger"
+//                     title="Stop!"
+//                     colored
+//                     toggle={true}
+//                     message="The voltage of the machine 1 is very much high please check this machine."
+//                 />
+//             </React.Fragment>
 
-        )
-    }
-};
+//         )
+//     }
+// };
 
 
 const Datalist = (props) => (
