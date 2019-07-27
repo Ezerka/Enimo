@@ -81,6 +81,9 @@ The **yarn start** command is used to start the project after installing all the
 yarn start
 ```
  Open **http://localhost:3000** to view it in the browser.
+ 
+## Word Document: 
+The documentation for the project is available [here](other/docs/EnimoDocument.docx) 
 
 ## Presentation:
 The presentation of the project is [here](other/docs/EnimoPresentation.pptx)
