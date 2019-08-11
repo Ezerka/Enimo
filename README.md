@@ -63,8 +63,7 @@ The Enimo is purely built in **ReactJS** with some other dependencies which are 
 
 2. **Cloud**: As all the data from the **hardware component** is sent to the cloud, as all the data analysis algorithms are present in the cloud. The insights from these algorithm's are then sent to the database for displaying the data in dashboard.
 
-3. **TensorFlow**: We have used tensorflow for optimizing and increasing the accuracy of the algorithms. 
-
+3. **scikit-learn**: We have used scikitlearn to perform the analysis and get predictions
  ## Installation
 Use the package manager [yarn](https://yarnpkg.com/lang/en/docs/install/#windows-stable) to install the yarn in your system.
 
@@ -82,6 +81,9 @@ The **yarn start** command is used to start the project after installing all the
 yarn start
 ```
  Open **http://localhost:3000** to view it in the browser.
+ 
+## Word Document: 
+The documentation for the project is available [here](other/docs/EnimoDocument.docx) 
 
 ## Presentation:
 The presentation of the project is [here](other/docs/EnimoPresentation.pptx)
