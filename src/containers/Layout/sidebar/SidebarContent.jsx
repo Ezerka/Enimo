@@ -62,7 +62,7 @@ class SidebarContent extends Component {
                     />
                 </ul>
                 <ul className="sidebar__block">
-                    <SidebarLink title="Log Out" icon="exit" route="/log_in"/>
+                    <SidebarLink title="Log Out" icon="exit" route="/login"/>
                 </ul>
             </div>
         );

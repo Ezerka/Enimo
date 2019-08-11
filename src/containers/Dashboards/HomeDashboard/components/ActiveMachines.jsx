@@ -33,12 +33,12 @@ const ActiveMachines = (props) => {
 
 
 const Datalist = (props) => (
-    <Panel xs={12} md={12} lg={12} xl={4} title={"Active Machines"}
+    <Panel xs={12} md={12} lg={12} xl={4} title={"Active Appliances"}
            subhead="The load of the machines in the real-time.">
         <div className="progress-wrap progress-wrap--small">
             <div
                 className={"progress-wrap progress-wrap--small progress-wrap--red progress-wrap--label-top"}>
-                <p>{'Machine 1'}</p>
+                <p>{'Appliance 1'}</p>
                 <Progress className={"progress-red"} animated value={100}>
                     <p className="progress__label goals red">20kW</p>
                 </Progress>
@@ -47,7 +47,7 @@ const Datalist = (props) => (
         <div className="progress-wrap progress-wrap--small">
             <div
                 className={"progress-wrap progress-wrap--small progress-wrap--green progress-wrap--label-top"}>
-                <p>{'Machine 2'}</p>
+                <p>{'Appliance 2'}</p>
                 <Progress animated value={98}>
                     <p className="progress__label goals">{props.machine_2}</p>
                 </Progress>
@@ -56,7 +56,7 @@ const Datalist = (props) => (
         <div className="progress-wrap progress-wrap--small">
             <div
                 className={"progress-wrap progress-wrap--small progress-wrap--green progress-wrap--label-top"}>
-                <p>{'Machine 3'}</p>
+                <p>{'Appliance 3'}</p>
                 <Progress animated value={96}>
                     <p className="progress__label goals">{props.machine_3} kW</p>
                 </Progress>
@@ -65,7 +65,7 @@ const Datalist = (props) => (
         <div className="progress-wrap progress-wrap--small">
             <div
                 className={"progress-wrap progress-wrap--small progress-wrap--green progress-wrap--label-top"}>
-                <p>{'Machine 4'}</p>
+                <p>{'Appliance 4'}</p>
                 <Progress animated value={88}>
                     <p className="progress__label goals">{props.machine_4} kW</p>
                 </Progress>
@@ -74,7 +74,7 @@ const Datalist = (props) => (
         <div className="progress-wrap progress-wrap--small">
             <div
                 className={"progress-wrap progress-wrap--small progress-wrap--green progress-wrap--label-top"}>
-                <p>{'Machine 5'}</p>
+                <p>{'Appliance 5'}</p>
                 <Progress animated value={90}>
                     <p className="progress__label goals">{props.machine_5} kW</p>
                 </Progress>
@@ -83,13 +83,13 @@ const Datalist = (props) => (
         <div className="progress-wrap progress-wrap--small">
             <div
                 className={"progress-wrap progress-wrap--small progress-wrap--green progress-wrap--label-top"}>
-                <p>{'Machine 6'}</p>
+                <p>{'Appliance 6'}</p>
                 <Progress animated value={91}><p
                     className="progress__label goals">{props.machine_6} kW</p></Progress>
             </div>
         </div>
-        <p>{'*Top three machines, make up 90% of the usage.'}</p>
-        <Link to={"./machines/1"}>
+        <p>{'*Top three appliance, make up 90% of the usage.'}</p>
+        <Link to={"./appliance/1"}>
             <p className={"color-blue pd-top-10"}>See All</p>
         </Link>
 
