@@ -72,7 +72,7 @@ class Appliance2 extends React.Component {
             <Container className="dashboard">
                 <Row>
                     <Col md={12}>
-                        <h3 className="page-title">Appliance 1 Usage</h3>
+                        <h3 className="page-title">Appliance 2 Usage</h3>
                     </Col>
                 </Row>
                 <Row>

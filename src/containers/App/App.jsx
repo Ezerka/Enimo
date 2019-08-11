@@ -7,7 +7,7 @@ import i18next from 'i18next';
 import {hot} from 'react-hot-loader';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../../scss/app.scss';
-import Router from './Router';
+import Router from './Router/index';
 import store from './store';
 import ScrollToTop from './ScrollToTop';
 import {config as i18nextConfig} from '../../translations';

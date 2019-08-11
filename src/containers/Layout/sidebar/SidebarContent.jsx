@@ -51,13 +51,13 @@ class SidebarContent extends Component {
                     <SidebarLink
                         title="History"
                         icon="list"
-                        route="/history1"
+                        route="/history"
                         onClick={this.hideSidebar}
                     />
                     <SidebarLink
                         title="Settings"
                         icon="cog"
-                        route="/settings1"
+                        route="/settings"
                         onClick={this.hideSidebar}
                     />
                 </ul>

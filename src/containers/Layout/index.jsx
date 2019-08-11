@@ -25,12 +25,7 @@ import {CustomizerProps, SidebarProps, ThemeProps} from '../../shared/prop-types
 let notification = null;
 
 const showNotification = () => {
-    notification.notice({
-        duration: 5,
-        closable: true,
-        style: {top: 0, left: 'calc(100vw - 100%)'},
-        className: 'right-up',
-    });
+    notification.notice({});
 };
 
 class Layout extends Component {
@@ -46,9 +41,6 @@ class Layout extends Component {
         setTimeout(() => showNotification(), 700);
     }
 
-    componentWillUnmount() {
-        notification.destroy();
-    }
 
     changeSidebarVisibility = () => {
         this.props.dispatch(changeSidebarVisibility());

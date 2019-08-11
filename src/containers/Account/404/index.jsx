@@ -8,7 +8,7 @@ const NotFound404 = () => (
             <img className="not-found__image" src={Image404} alt="404"/>
             <h3 className="not-found__info">Ooops! The page you are looking for could not be found
                 :(</h3>
-            <Link className="btn btn-primary" to="/dashboard_default">Back Home</Link>
+            <Link className="btn btn-primary" to="/home">Back Home</Link>
         </div>
     </div>
 );
