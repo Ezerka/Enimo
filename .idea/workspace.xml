@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1e2e8ea-67e4-4850-874d-7797abcf5b66" name="Default Changelist" comment="90: Updated the components in the dashboard and removed all the warnings.">
-      <change afterPath="$PROJECT_DIR$/src/containers/App/Router/WrappedRoutes/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/App/Router/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dashboard.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Account/404/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Account/404/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App/Router.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Dashboards/AppliancesDashboard/Appliance2/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Dashboards/AppliancesDashboard/Appliance2/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Dashboards/HistoryDashboard/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Dashboards/SettingsDashboard/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Layout/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Layout/sidebar/SidebarContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Layout/sidebar/SidebarContent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/EnergyConsumption.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/EnergyConsumption.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,58 +47,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>selection</find>
-      <find>Grids</find>
-      <find>../../../shared</find>
-      <find>../../../../shared</find>
-      <find>../../../redux</find>
-      <find>../../../</find>
-      <find>defaultpage</find>
-      <find>../shared</find>
-      <find>layout</find>
-      <find>../../shared</find>
-      <find>./shared/img/404/bg_404.png</find>
-      <find>shared/img/404/bg_404.png</find>
-      <find>shared/img/logo.svg</find>
-      <find>../../shared/img/404/bg_404.png</find>
-      <find>../../shared/img/logo.svg</find>
-      <find>i18</find>
-      <find>translate('common')</find>
-      <find>&gt;{t('</find>
-      <find>')}&lt;/h5&gt;</find>
-      <find>&gt;{t(</find>
-      <find>')}&lt;/h3&gt;</find>
-      <find>&gt;''</find>
-      <find>')}&lt;/h2</find>
-      <find>logo.svg</find>
-      <find>../shared/</find>
-      <find>account__forgot-password</find>
-      <find>tobar_nav</find>
-      <find>welcome to zenco</find>
-      <find>content</find>
-      <find>handlebars</find>
+      <find>-L_ONNCKCabp_Z55QUXM</find>
     </findStrings>
-    <replaceStrings>
-      <replace>menu_navigation.svg</replace>
-      <replace>../../../../shared</replace>
-      <replace>../../redux</replace>
-      <replace>../../../../</replace>
-      <replace>shared</replace>
-      <replace>../../../shared</replace>
-      <replace />
-      <replace>'&lt;/h5&gt;</replace>
-      <replace>'&lt;/h3&gt;</replace>
-      <replace>&gt;'</replace>
-      <replace>'&lt;/h2&gt;</replace>
-      <replace>Enimo.png</replace>
-      <replace>topbar_nav</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>E:\Enimo\dashboard\public\img</dir>
-      <dir>E:\Enimo\dashboard\src\containers\Account</dir>
-      <dir>E:\Enimo\dashboard\src\containers\Layout\customizer</dir>
-      <dir>E:\Enimo\dashboard\src\containers\Layout</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -118,14 +66,33 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="D:/Software/wordpress-4.9.6/wordpress-4.9.7/wordpress" />
     </include_path>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="92" />
+    <option name="y" value="80" />
+    <option name="width" value="704" />
+    <option name="height" value="512" />
+  </component>
   <component name="ProjectId" id="1PHEnqyq7joUARmqC3OzqItr3AQ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -138,7 +105,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/containers/App" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../firebase_test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -153,7 +120,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -210,6 +177,15 @@
       <workItem from="1564585254460" duration="564000" />
       <workItem from="1564636525259" duration="212000" />
       <workItem from="1565522797563" duration="7512000" />
+      <workItem from="1566039821324" duration="5315000" />
+      <workItem from="1566135914435" duration="6369000" />
+      <workItem from="1566759871756" duration="699000" />
+      <workItem from="1566778721209" duration="79000" />
+      <workItem from="1566997631292" duration="272000" />
+      <workItem from="1566998048651" duration="172000" />
+      <workItem from="1566998420038" duration="206000" />
+      <workItem from="1566998665653" duration="452000" />
+      <workItem from="1566999153782" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="61: Modified the package.json">
       <created>1561865250666</created>
@@ -410,6 +386,9 @@
     <option name="localTasksCounter" value="29" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1731000" />
+  </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -418,6 +397,42 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18669528" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Remote Host" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Key Promoter X" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -428,6 +443,12 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
