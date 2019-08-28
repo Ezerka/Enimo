@@ -60,7 +60,10 @@ class HomeDashboard extends React.Component {
                 newState.push({
                     id: item,
                     consumption: AllTheData[item].consumption,
-                    estimatedConsumption: AllTheData[item].estimatedConsumption
+                    estimatedConsumption: AllTheData[item].estimatedConsumption,
+                    cost:AllTheData[item].cost,
+                    solar:AllTheData[item].solar,
+                    efficiency: AllTheData[item].efficiency
                 });
             }
             this.setState({
@@ -77,8 +80,7 @@ class HomeDashboard extends React.Component {
             for (let item in AllTheGraphData) {
                 newGraphState.push({
                     name: AllTheGraphData[item].name,
-                    point: AllTheGraphData[item].point,
-                    amt: AllTheGraphData[item].amt
+                    Energy: AllTheGraphData[item].Energy,
                 })
             }
             this.setState({
@@ -98,15 +100,15 @@ class HomeDashboard extends React.Component {
 
                 </Row>
                 <Row md={12}>
-                    <PowerTimeConsumption Data={this.state.solar_report}/>
+                    <PowerTimeConsumption Data={this.state.graph_data}/>
 
                     {/*//<LiveUsage GraphData = {this.state.graph_data}/>*/}
                 </Row>
                 <Row>
                     <EnergyConsumption Data={this.state.home_data}/>
-                    <Cost Data={this.state.home_dashboard_data}/>
-                    <SolarEnergy Data={this.state.home_dashboard_data}/>
-                    <Efficiency Data={this.state.home_dashboard_data}/>
+                    <Cost Data={this.state.home_data}/>
+                    <SolarEnergy Data={this.state.home_data}/>
+                    <Efficiency Data={this.state.home_data}/>
                 </Row>
                 <Row>
                     <ChangeInCost Data={this.state.home_dashboard_data}/>

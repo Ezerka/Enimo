@@ -32,7 +32,7 @@ const Datalist = (props) => (
                     </ResponsiveContainer>
                     <div className="dashboard__health-chart-info">
                         <WalkIcon style={{fill: '#4ce1b6'}}/>
-                        <p className="dashboard__health-chart-number">{props.solar_production}</p>
+                        <p className="dashboard__health-chart-number">{props.solar}</p>
                         <p className="dashboard__health-chart-units">kW</p>
                     </div>
                 </div>

@@ -2,7 +2,6 @@ import React from 'react';
 import {Pie, PieChart, ResponsiveContainer} from 'recharts';
 import {Card, CardBody, Col} from 'reactstrap';
 import FlashIcon from 'mdi-react/FlashIcon';
-import PropTypes from 'prop-types';
 
 const data = [{value: 30, fill: '#f6da6e'},
     {value: 70, fill: '#eeeeee'}];
@@ -42,8 +41,5 @@ const Datalist = (props) => (
     </Col>
 );
 
-EnergyConsumption.propTypes = {
-    t: PropTypes.func.isRequired,
-};
 
 export default EnergyConsumption;
