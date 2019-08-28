@@ -1,6 +1,5 @@
 import React from 'react';
 import {Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis} from 'recharts';
-import PropTypes from 'prop-types';
 import Panel from '../../../../shared/components/Panel';
 
 const data = [
@@ -21,29 +20,22 @@ const data = [
     {name: '15:00', Energy: 4679},
 ];
 
-const PowerTimeConsumption = (props) => {
-    return (
-        <React.Fragment>
-            {props.Data.map(mappedData => <PowerTimeList {...mappedData}/>)}
-        </React.Fragment>
-
-    )
-};
 
 const tickFormer = (tick) => {
-    return `${tick / 1000}kW`;
+    return `${tick }kW`;
 };
 
-const PowerTimeList = (props) => (
+const PowerTimeConsumption = (props) => (
 
     <Panel xl={12} lg={6} md={12} sm={6}
            title={"Current Voltage"}
            subhead="The amount of energy which is being consumed."
     >
-        <p className="dashboard__bounce-percent add_the_margin">{props.solar_energy_produced}kW</p>
+        {console.log(props.Data)}
+        <p className="dashboard__bounce-percent add_the_margin">4.6 kW</p>
         <ResponsiveContainer height={220} className="dashboard__area">
             <AreaChart
-                data={data}
+                data={props.Data}
                 margin={{
                     top: 0, right: 0, left: -15, bottom: 0,
                 }}
@@ -58,9 +50,5 @@ const PowerTimeList = (props) => (
         </ResponsiveContainer>
     </Panel>
 );
-
-PowerTimeConsumption.propTypes = {
-    t: PropTypes.func.isRequired,
-};
 
 export default (PowerTimeConsumption);
