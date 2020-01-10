@@ -14,8 +14,9 @@ jobs:
         
     - name: Build Project
       run: |
-        npm install
-        npm run build --if-present
+        yarn install
+        yarn build
+        serve -s build 
         
     - name: List output files
       run: ls
