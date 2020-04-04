@@ -2,7 +2,7 @@ import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import MainWrapper from '../MainWrapper';
 import LogIn from '../../Account/LogIn/index'
-import NotFound404 from '../../DefaultPage/404/index';
+import NotFound404 from '../../Account/404/index';
 import Register from '../../Account/Register/index';
 import WrappedRoutes from './WrappedRoutes';
 

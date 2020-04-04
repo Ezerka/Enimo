@@ -83,17 +83,16 @@ const dataYearly = [
 // };
 
 class EnergyConsumedTabs extends PureComponent {
+
     static propTypes = {
         t: PropTypes.func.isRequired,
     };
 
-    constructor() {
-        super();
-        this.state = {
-            activeTab: '1',
-            yearly: true,
-        };
-    }
+    state = {
+        activeTab: '1',
+        yearly: true,
+    };
+
 
     toggle = (tab) => {
         if (this.state.activeTab !== tab) {
@@ -115,8 +114,9 @@ class EnergyConsumedTabs extends PureComponent {
             <Col md={12} lg={12} xl={12}>
                 <Card>
                     <CardBody>
+                        {console.log(this.props.Data[0].Day_Data)}
                         <div className="card__title">
-                            <h5 className="bold-text">{t('dashboard_crypto.energystats')}</h5>
+                            <h5 className="bold-text">Energy Consumed Statistics</h5>
                             <h5 className="subhead">These stats are used to understand, how much
                                 amount of energy has
                                 been consumed.</h5>
@@ -169,7 +169,7 @@ class EnergyConsumedTabs extends PureComponent {
                                     <TabPane tabId="1">
                                         <ResponsiveContainer height={260}>
                                             {this.state.yearly ?
-                                                <BarChart data={dataDaily}
+                                                <BarChart data={this.props.Data[0].Day_Data}
                                                           margin={{top: 20, left: -15}}>
                                                     <XAxis dataKey="name" tickLine={false}/>
                                                     <YAxis tickLine={true}
@@ -180,7 +180,7 @@ class EnergyConsumedTabs extends PureComponent {
                                                          fill="#ff4861" barSize={10}/>
                                                 </BarChart>
                                                 :
-                                                <BarChart data={dataDaily}
+                                                <BarChart data={this.props.Data[0].Day_Data}
                                                           margin={{top: 20, left: -15}}>
                                                     <XAxis dataKey="name" tickLine={false}/>
                                                     <YAxis tickLine={false}/>
@@ -195,7 +195,7 @@ class EnergyConsumedTabs extends PureComponent {
                                     <TabPane tabId="2">
                                         <ResponsiveContainer height={260}>
                                             {this.state.yearly ?
-                                                <BarChart data={dataDaily}
+                                                <BarChart data={this.props.Data[0].Week_Data}
                                                           margin={{top: 20, left: -15}}>
                                                     <XAxis dataKey="name" tickLine={false}/>
                                                     <YAxis tickLine={false}
@@ -206,7 +206,7 @@ class EnergyConsumedTabs extends PureComponent {
                                                          fill="#ff4861" barSize={10}/>
                                                 </BarChart>
                                                 :
-                                                <BarChart data={dataMonthly}
+                                                <BarChart data={this.props.Data[0].Month_Data}
                                                           margin={{top: 20, left: -15}}>
                                                     <XAxis dataKey="name" tickLine={false}/>
                                                     <YAxis tickLine={false}/>
@@ -221,7 +221,7 @@ class EnergyConsumedTabs extends PureComponent {
                                     <TabPane tabId="3">
                                         <ResponsiveContainer height={260}>
                                             {this.state.yearly ?
-                                                <BarChart data={dataMonthly}
+                                                <BarChart data={this.props.Data[0].Month_Data}
                                                           margin={{top: 20, left: -15}}>
                                                     <XAxis dataKey="name" tickLine={false}/>
                                                     <YAxis tickLine={false}
@@ -232,7 +232,7 @@ class EnergyConsumedTabs extends PureComponent {
                                                          fill="#ff4861" barSize={10}/>
                                                 </BarChart>
                                                 :
-                                                <BarChart data={dataMonthly}
+                                                <BarChart data={this.props.Data[0].Month_Data}
                                                           margin={{top: 20, left: -15}}>
                                                     <XAxis dataKey="name" tickLine={false}/>
                                                     <YAxis tickLine={false}/>
@@ -247,7 +247,7 @@ class EnergyConsumedTabs extends PureComponent {
                                     <TabPane tabId="4">
                                         <ResponsiveContainer height={260}>
                                             {this.state.yearly ?
-                                                <BarChart data={dataYearly}
+                                                <BarChart data={this.props.Data[0].Year_Data}
                                                           margin={{top: 20, left: -15}}>
                                                     <XAxis dataKey="name" tickLine={false}/>
                                                     <YAxis tickLine={false}
@@ -258,7 +258,7 @@ class EnergyConsumedTabs extends PureComponent {
                                                          fill="#ff4861" barSize={10}/>
                                                 </BarChart>
                                                 :
-                                                <BarChart data={dataYearly}
+                                                <BarChart data={this.props.Data[0].Year_Data}
                                                           margin={{top: 20, left: -15}}>
                                                     <XAxis dataKey="name" tickLine={false}/>
                                                     <YAxis tickLine={false}/>

@@ -32,7 +32,7 @@ const PowerTimeConsumption = (props) => (
            subhead="The amount of energy which is being consumed."
     >
         {console.log(props.Data)}
-        <p className="dashboard__bounce-percent add_the_margin">4.6 kW</p>
+        <p className="dashboard__bounce-percent add_the_margin">4.6kW</p>
         <ResponsiveContainer height={220} className="dashboard__area">
             <AreaChart
                 data={props.Data}

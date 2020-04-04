@@ -11,47 +11,44 @@ import ActiveMachines from './components/ActiveMachines'
 import PowerTimeConsumption from './components/PowerTimeConsumption'
 
 class HomeDashboard extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            home_data: [],
-            home_dashboard_data: [
-                {
-                    "estimated_consumption": 300,
-                    "cost": 1000,
-                    "estimated_cost": 3000,
-                    "solar_production": 50,
-                    "estimated_solar_cost": 100,
-                    "efficiency": 76,
-                    "changeInCost_Percentage": 40,
-                    "changeInCost_Money": 2000,
-                    "energy_intensity": 345,
-                    "machine_1": 11,
-                    "machine_2": 9.8,
-                    "machine_3": 9.6,
-                    "machine_4": 8.8,
-                    "machine_5": 9.0,
-                    "machine_6": 9.1,
-                }
-            ],
-            graph_data: [],
-            solar_report: [{
-                total_consumption: 124.2,
-                savings: 4720,
-                net_usage: 300,
-                solar_energy_produced: 4.6,
-                solar_energy_exported: 11,
-                electrical_energy_imported: 36,
-                total_cost_remaining: 34700,
-                received_cost: 14568,
-                remaining_cost: 20132
-            }]
-        }
-
-    }
+    state = {
+        home_data: [],
+        home_dashboard_data: [
+            {
+                "consumption":56,
+                "estimated_consumption": 300,
+                "cost": 1000,
+                "estimated_cost": 3000,
+                "solar_production": 50,
+                "estimated_solar_cost": 100,
+                "efficiency": 76,
+                "changeInCost_Percentage": 40,
+                "changeInCost_Money": 2000,
+                "energy_intensity": 345,
+                "machine_1": 11,
+                "machine_2": 9.8,
+                "machine_3": 9.6,
+                "machine_4": 8.8,
+                "machine_5": 9.0,
+                "machine_6": 9.1,
+            }
+        ],
+        graph_data: [],
+        solar_report: [{
+            total_consumption: 124.2,
+            savings: 4720,
+            net_usage: 300,
+            solar_energy_produced: 4.6,
+            solar_energy_exported: 11,
+            electrical_energy_imported: 36,
+            total_cost_remaining: 34700,
+            received_cost: 14568,
+            remaining_cost: 20132
+        }]
+    };
 
     componentDidMount() {
-        const dataRef = firebase.database().ref('home_data')//This is for the comments
+        const dataRef = firebase.database().ref('home_data');//This is for the comments
         dataRef.on('value', (snapshot) => {
             let AllTheData = snapshot.val();
             let newState = [];
@@ -61,8 +58,8 @@ class HomeDashboard extends React.Component {
                     id: item,
                     consumption: AllTheData[item].consumption,
                     estimatedConsumption: AllTheData[item].estimatedConsumption,
-                    cost:AllTheData[item].cost,
-                    solar:AllTheData[item].solar,
+                    cost: AllTheData[item].cost,
+                    solar: AllTheData[item].solar,
                     efficiency: AllTheData[item].efficiency
                 });
             }
@@ -100,7 +97,7 @@ class HomeDashboard extends React.Component {
 
                 </Row>
                 <Row md={12}>
-                    <PowerTimeConsumption Data={this.state.graph_data}/>
+                    <PowerTimeConsumption Data={this.state.graph_data} power={this.state.home_data}/>
 
                     {/*//<LiveUsage GraphData = {this.state.graph_data}/>*/}
                 </Row>
