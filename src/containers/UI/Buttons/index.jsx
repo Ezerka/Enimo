@@ -1,6 +1,5 @@
 import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import DefaultButtons from './components/DefaultButtons';
 import SquareButtons from './components/SquareButtons';
@@ -37,4 +36,4 @@ Buttons.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(Buttons);
+export default (Buttons);

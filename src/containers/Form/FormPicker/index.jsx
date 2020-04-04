@@ -1,7 +1,6 @@
 import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
 import PropTypes from 'prop-types';
-import {translate} from 'react-i18next';
 import DatePickers from './components/DatePickers';
 import TimePickers from './components/TimePickers';
 import ColorPickers from './components/ColorPickers';
@@ -30,4 +29,4 @@ FormPicker.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(FormPicker);
+export default (FormPicker);

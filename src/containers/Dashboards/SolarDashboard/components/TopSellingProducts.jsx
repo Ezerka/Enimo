@@ -1,7 +1,6 @@
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
 import {Legend, Pie, PieChart, ResponsiveContainer, Tooltip} from 'recharts';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import Panel from '../../../../shared/components/Panel';
 
@@ -53,4 +52,4 @@ TopSellingProducts.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(TopSellingProducts);
+export default (TopSellingProducts);

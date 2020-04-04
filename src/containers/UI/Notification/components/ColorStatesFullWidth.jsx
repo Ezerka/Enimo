@@ -1,7 +1,6 @@
 import React, {PureComponent} from 'react';
 import {Button, ButtonToolbar, Card, CardBody, Col} from 'reactstrap';
 import PropTypes from 'prop-types';
-import {translate} from 'react-i18next';
 import {FullWideNotification} from '../../../../shared/components/Notification';
 
 class ColorStatesFullWidth extends PureComponent {
@@ -54,4 +53,4 @@ class ColorStatesFullWidth extends PureComponent {
     }
 }
 
-export default translate('common')(ColorStatesFullWidth);
+export default (ColorStatesFullWidth);

@@ -2,7 +2,6 @@ import React from 'react';
 import {Button, ButtonToolbar, Card, CardBody, Col} from 'reactstrap';
 import {Field, reduxForm} from 'redux-form';
 import MaskedInput from 'react-text-mask';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 const renderField = ({
@@ -135,4 +134,4 @@ MaskExamples.propTypes = {
 
 export default reduxForm({
     form: 'mask_examples', // a unique identifier for this form
-})(translate('common')(MaskExamples));
+})((MaskExamples));

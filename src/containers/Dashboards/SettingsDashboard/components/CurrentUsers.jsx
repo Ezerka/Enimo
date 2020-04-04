@@ -1,7 +1,6 @@
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
 import {Pie, PieChart} from 'recharts';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import Panel from '../../../../shared/components/Panel';
 
@@ -51,4 +50,4 @@ CurrentUsers.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(CurrentUsers);
+export default (CurrentUsers);

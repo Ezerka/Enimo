@@ -2,7 +2,6 @@ import React, {PureComponent} from 'react';
 import {Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis} from 'recharts';
 import {Card, CardBody, Col, Nav, NavItem, NavLink, TabContent, TabPane} from 'reactstrap';
 import classnames from 'classnames';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 // import Modal from '../../../../shared/components/Modal';
 
@@ -280,4 +279,4 @@ class EnergyConsumedTabs extends PureComponent {
     }
 }
 
-export default translate('common')(EnergyConsumedTabs);
+export default (EnergyConsumedTabs);

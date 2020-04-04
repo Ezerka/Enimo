@@ -1,6 +1,5 @@
 import React, {PureComponent} from 'react';
 import {Col, Container, Row} from 'reactstrap';
-import {translate} from 'react-i18next';
 import {connect} from 'react-redux';
 import PropTypes from 'prop-types';
 import TotalConsumption from './components/TotalConsumption';
@@ -69,4 +68,4 @@ class SolarDashboard extends PureComponent {
     }
 }
 
-export default connect(state => ({newOrder: state.newOrder.items}))(translate('common')(SolarDashboard));
+export default connect(state => ({newOrder: state.newOrder.items}))(SolarDashboard);

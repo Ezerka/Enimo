@@ -1,6 +1,5 @@
 import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import DefaultPanel from './components/DefaultPanel';
 import DefaultPanelWithSubheader from './components/DefaultPanelWithSubhead';
@@ -41,4 +40,4 @@ Panels.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(Panels);
+export default (Panels);

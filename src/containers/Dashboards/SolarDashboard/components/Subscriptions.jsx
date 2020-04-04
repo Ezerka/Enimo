@@ -3,7 +3,6 @@ import React, {PureComponent} from 'react';
 import {Card, CardBody, Col} from 'reactstrap';
 import {Bar, BarChart, Cell, ResponsiveContainer} from 'recharts';
 import TrendingUpIcon from 'mdi-react/TrendingUpIcon';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 const data = [
@@ -79,4 +78,4 @@ class Subscriptions extends PureComponent {
     }
 }
 
-export default translate('common')(Subscriptions);
+export default (Subscriptions);

@@ -1,6 +1,5 @@
 import React from 'react';
 import {Card, CardBody, Col, Row} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 const bad = `${process.env.PUBLIC_URL}/img/performance/bad.png`;
@@ -34,4 +33,4 @@ GoodPerformance.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(GoodPerformance);
+export default (GoodPerformance);

@@ -1,7 +1,6 @@
 import React, {PureComponent} from 'react';
 import {Card, CardBody, Col, Nav, NavItem, NavLink, TabContent, TabPane} from 'reactstrap';
 import classnames from 'classnames';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 class JustifyTabs extends PureComponent {
@@ -132,4 +131,4 @@ class JustifyTabs extends PureComponent {
     }
 }
 
-export default translate('common')(JustifyTabs);
+export default (JustifyTabs);

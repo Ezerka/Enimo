@@ -3,7 +3,6 @@ import {Card, CardBody, Col} from 'reactstrap';
 import {Field, reduxForm} from 'redux-form';
 import CalendarBlankIcon from 'mdi-react/CalendarBlankIcon';
 import TimetableIcon from 'mdi-react/TimetableIcon';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import renderIntervalDatePickerField from '../../../../shared/components/form/IntervalDatePicker';
 import renderDatePickerField from '../../../../shared/components/form/DatePicker';
@@ -63,4 +62,4 @@ DatePickers.propTypes = {
 
 export default reduxForm({
     form: 'date_picker_form', // a unique identifier for this form
-})(translate('common')(DatePickers));
+})((DatePickers));

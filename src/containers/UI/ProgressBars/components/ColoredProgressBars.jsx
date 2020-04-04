@@ -1,6 +1,5 @@
 import React from 'react';
 import {Card, CardBody, Col, Progress} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 const ColoredProgressBars = ({t}) => (
@@ -40,4 +39,4 @@ ColoredProgressBars.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(ColoredProgressBars);
+export default (ColoredProgressBars);

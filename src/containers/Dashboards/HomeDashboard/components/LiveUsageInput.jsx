@@ -2,7 +2,6 @@
 import React, {PureComponent} from 'react';
 import {Card, CardBody, Col} from 'reactstrap';
 import {Line} from 'react-chartjs-2';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 const initialState = {
@@ -125,4 +124,4 @@ class LiveUsageGraph extends PureComponent {
     }
 }
 
-export default translate('common')(LiveUsageGraph);
+export default (LiveUsageGraph);

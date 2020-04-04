@@ -1,7 +1,6 @@
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
 import {Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis} from 'recharts';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import Panel from '../../../../shared/components/Panel';
 
@@ -57,4 +56,4 @@ AppTileClicks.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(AppTileClicks);
+export default (AppTileClicks);

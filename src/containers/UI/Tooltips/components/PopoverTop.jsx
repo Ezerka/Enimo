@@ -9,7 +9,6 @@ import {
     PopoverBody,
     PopoverHeader
 } from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 class PopoverTop extends PureComponent {
@@ -68,4 +67,4 @@ class PopoverTop extends PureComponent {
     }
 }
 
-export default translate('common')(PopoverTop);
+export default (PopoverTop);

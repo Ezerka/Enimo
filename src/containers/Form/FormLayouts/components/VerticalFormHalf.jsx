@@ -1,7 +1,6 @@
 import React from 'react';
 import {Button, ButtonToolbar, Card, CardBody, Col} from 'reactstrap';
 import {Field, reduxForm} from 'redux-form';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import renderRadioButtonField from '../../../../shared/components/form/RadioButton';
 import renderSelectField from '../../../../shared/components/form/Select';
@@ -128,4 +127,4 @@ VerticalFormHalf.propTypes = {
 
 export default reduxForm({
     form: 'vertical_form_layout_half', // a unique identifier for this form
-})(translate('common')(VerticalFormHalf));
+})((VerticalFormHalf));

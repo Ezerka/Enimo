@@ -1,7 +1,6 @@
 import React from 'react';
 import {Button, ButtonToolbar, Card, CardBody, Col} from 'reactstrap';
 import {Field, reduxForm} from 'redux-form';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import renderDropZoneMultipleField from '../../../../shared/components/form/DropZoneMultiple';
 
@@ -38,4 +37,4 @@ DropFiles.propTypes = {
 
 export default reduxForm({
     form: 'drop_files_form', // a unique identifier for this form
-})(translate('common')(DropFiles));
+})((DropFiles));

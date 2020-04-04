@@ -1,6 +1,5 @@
 import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import DefaultTabs from './components/DefaultTabs';
 import DefaultTabsBorderedTop from './components/DefaultTabsBorderedTop';
@@ -40,4 +39,4 @@ Tabs.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(Tabs);
+export default (Tabs);

@@ -2,7 +2,6 @@
 import React, {PureComponent} from 'react';
 import {Col, Row} from 'reactstrap';
 import {Bar, BarChart, Cell, ResponsiveContainer} from 'recharts';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 const data = [
@@ -93,4 +92,4 @@ class SmallBars extends PureComponent {
     }
 }
 
-export default translate('common')(SmallBars);
+export default (SmallBars);

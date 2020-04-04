@@ -2,7 +2,6 @@ import React from 'react';
 import {Pie, PieChart, ResponsiveContainer} from 'recharts';
 import {Card, CardBody, Col} from 'reactstrap';
 import MapMarkerRadiusIcon from 'mdi-react/MapMarkerRadiusIcon';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 const data = [{value: 5.5, fill: '#70bbfd'},
@@ -46,4 +45,4 @@ Cost.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(Cost);
+export default (Cost);

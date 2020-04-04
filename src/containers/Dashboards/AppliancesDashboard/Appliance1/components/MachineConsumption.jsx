@@ -2,7 +2,6 @@ import React, {PureComponent} from 'react';
 import {Card, CardBody, Col, Nav, NavItem, NavLink, TabContent, TabPane} from 'reactstrap';
 import {Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis} from 'recharts';
 import classnames from 'classnames';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 const dataMonthly = [
@@ -263,4 +262,4 @@ class MachineConsumption extends PureComponent {
     }
 }
 
-export default translate('common')(MachineConsumption);
+export default (MachineConsumption);

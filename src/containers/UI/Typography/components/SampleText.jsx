@@ -1,6 +1,5 @@
 import React from 'react';
 import {Card, CardBody, Col} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 const SampleText = ({t}) => (
@@ -30,4 +29,4 @@ SampleText.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(SampleText);
+export default (SampleText);

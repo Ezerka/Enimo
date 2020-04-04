@@ -1,6 +1,5 @@
 import React from 'react';
 import {Pie, PieChart} from 'recharts';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import Panel from '../../../../shared/components/Panel';
 
@@ -56,4 +55,4 @@ SalesStatistic.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(SalesStatistic);
+export default (SalesStatistic);

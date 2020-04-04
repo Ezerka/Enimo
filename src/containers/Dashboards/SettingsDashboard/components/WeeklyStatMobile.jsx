@@ -1,7 +1,6 @@
 // import React, { PureComponent } from 'react';
 import React from 'react';
 import {Pie, PieChart, ResponsiveContainer} from 'recharts';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 // import { Progress } from 'reactstrap';
 import Panel from '../../../../shared/components/Panel';
@@ -80,4 +79,4 @@ WeeklyStatMobile.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(WeeklyStatMobile);
+export default (WeeklyStatMobile);

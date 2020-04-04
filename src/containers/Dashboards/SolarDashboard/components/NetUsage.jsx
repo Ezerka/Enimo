@@ -1,5 +1,4 @@
 import React from 'react';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import Panel from '../../../../shared/components/Panel';
 
@@ -30,4 +29,4 @@ NetUsage.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(NetUsage);
+export default (NetUsage);

@@ -1,7 +1,6 @@
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
 import {CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis} from 'recharts';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import Panel from '../../../../shared/components/Panel';
 
@@ -93,4 +92,4 @@ LiveUsage.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(LiveUsage);
+export default (LiveUsage);

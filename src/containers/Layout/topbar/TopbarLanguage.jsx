@@ -1,5 +1,4 @@
 import React, {PureComponent} from 'react';
-import {translate} from 'react-i18next';
 import {Collapse} from 'reactstrap';
 import DownIcon from 'mdi-react/ChevronDownIcon';
 import PropTypes from 'prop-types';
@@ -102,4 +101,4 @@ class TopbarLanguage extends PureComponent {
     }
 }
 
-export default translate('common')(TopbarLanguage);
+export default (TopbarLanguage);

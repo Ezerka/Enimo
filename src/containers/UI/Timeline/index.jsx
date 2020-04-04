@@ -1,6 +1,5 @@
 import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import TimelineHistory from './components/TimelineHistory';
 
@@ -23,4 +22,4 @@ Timeline.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(Timeline);
+export default (Timeline);

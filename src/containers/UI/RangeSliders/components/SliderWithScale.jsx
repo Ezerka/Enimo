@@ -1,6 +1,5 @@
 import React from 'react';
 import {Card, CardBody, Col} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import Slider from '../../../../shared/components/range_slider/Slider';
 
@@ -41,4 +40,4 @@ SliderWithScale.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(SliderWithScale);
+export default (SliderWithScale);

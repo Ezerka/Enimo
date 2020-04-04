@@ -2,7 +2,6 @@ import React from 'react';
 import {Pie, PieChart, ResponsiveContainer} from 'recharts';
 import {Card, CardBody, Col} from 'reactstrap';
 import WalkIcon from 'mdi-react/WalkIcon';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 const SolarEnergy = (props) => {
@@ -47,4 +46,4 @@ SolarEnergy.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(SolarEnergy);
+export default (SolarEnergy);

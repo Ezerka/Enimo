@@ -2,7 +2,6 @@ import React from 'react';
 import Slider from 'react-slick';
 import EmoticonIcon from 'mdi-react/EmoticonIcon';
 import CrosshairsGpsIcon from 'mdi-react/CrosshairsGpsIcon';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import Panel from '../../../../shared/components/Panel';
 
@@ -60,4 +59,4 @@ ShortReminders.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(ShortReminders);
+export default (ShortReminders);

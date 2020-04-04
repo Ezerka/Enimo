@@ -1,6 +1,5 @@
 import React from 'react';
 import {Button, ButtonGroup, ButtonToolbar, Card, CardBody, Col} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 const ButtonGroups = ({t}) => (
@@ -57,4 +56,4 @@ ButtonGroups.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(ButtonGroups);
+export default (ButtonGroups);

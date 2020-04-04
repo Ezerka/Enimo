@@ -1,7 +1,6 @@
 import React from 'react';
 import {Card, CardBody, Col} from 'reactstrap';
 import {Field, reduxForm} from 'redux-form';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 import renderBlockColorPickerField from '../../../../shared/components/form/BlockColorPicker';
@@ -56,4 +55,4 @@ ColorPickers.propTypes = {
 
 export default reduxForm({
     form: 'color_picker_form', // a unique identifier for this form
-})(translate('common')(ColorPickers));
+})((ColorPickers));

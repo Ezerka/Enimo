@@ -1,6 +1,5 @@
 import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 import showResults from '../Show';
@@ -25,4 +24,4 @@ WizardForm.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(WizardForm);
+export default (WizardForm);

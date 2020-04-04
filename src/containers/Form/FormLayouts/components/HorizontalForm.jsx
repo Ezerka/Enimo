@@ -1,7 +1,6 @@
 import React, {PureComponent} from 'react';
 import {Button, ButtonToolbar, Card, CardBody, Col} from 'reactstrap';
 import {Field, reduxForm} from 'redux-form';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import EyeIcon from 'mdi-react/EyeIcon';
 import renderCheckBoxField from '../../../../shared/components/form/CheckBox';
@@ -113,4 +112,4 @@ class HorizontalForm extends PureComponent {
 
 export default reduxForm({
     form: 'horizontal_form_layout', // a unique identifier for this form
-})(translate('common')(HorizontalForm));
+})((HorizontalForm));

@@ -12,7 +12,6 @@ import {
     UncontrolledDropdown,
 } from 'reactstrap';
 import ChevronDownIcon from 'mdi-react/ChevronDownIcon';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 const ButtonDropdown = ({t}) => (
@@ -155,4 +154,4 @@ ButtonDropdown.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(ButtonDropdown);
+export default (ButtonDropdown);

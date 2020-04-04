@@ -1,6 +1,5 @@
 import React from 'react';
 import {ButtonToolbar, Card, CardBody, Col} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import Modal from '../../../../shared/components/Modal';
 
@@ -57,4 +56,4 @@ ColoredModals.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(ColoredModals);
+export default (ColoredModals);

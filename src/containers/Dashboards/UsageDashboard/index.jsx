@@ -1,6 +1,5 @@
 import React, {PureComponent} from 'react';
 import {Col, Container, Row} from 'reactstrap';
-import {translate} from 'react-i18next';
 import {connect} from 'react-redux';
 import PropTypes from 'prop-types';
 import {SolarTableProps} from '../../../shared/prop-types/TablesProps';
@@ -168,4 +167,4 @@ class UsageDashboard extends PureComponent {
 
 export default connect(state => ({
     cryptoTable: state.cryptoTable.items,
-}))(translate('common')(UsageDashboard));
+}))(UsageDashboard);

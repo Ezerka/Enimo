@@ -3,7 +3,6 @@ import {Button, ButtonToolbar, Card, CardBody, Col} from 'reactstrap';
 import {Field, reduxForm} from 'redux-form';
 import PropTypes from 'prop-types';
 import EyeIcon from 'mdi-react/EyeIcon';
-import {translate} from 'react-i18next';
 import renderSelectField from '../../../../shared/components/form/Select';
 import validate from './validate';
 
@@ -154,4 +153,4 @@ class VerticalForm extends PureComponent {
 export default reduxForm({
     form: 'vertical_form_validation_two', // a unique identifier for this form
     validate,
-})(translate('common')(VerticalForm));
+})((VerticalForm));

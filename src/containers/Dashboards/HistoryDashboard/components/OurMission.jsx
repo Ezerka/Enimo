@@ -1,6 +1,5 @@
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
-import {translate} from 'react-i18next';
 import TargetIcon from 'mdi-react/TargetIcon';
 
 const OurMission = () => (
@@ -13,4 +12,4 @@ const OurMission = () => (
     </div>
 );
 
-export default translate('common')(OurMission);
+export default (OurMission);

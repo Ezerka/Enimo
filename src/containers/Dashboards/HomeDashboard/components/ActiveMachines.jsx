@@ -1,6 +1,5 @@
 import React from 'react';
 import {Progress} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import Panel from '../../../../shared/components/Panel';
 import {Link} from "react-router-dom";
@@ -100,4 +99,4 @@ ActiveMachines.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(ActiveMachines);
+export default (ActiveMachines);

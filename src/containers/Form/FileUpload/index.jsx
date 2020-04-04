@@ -1,6 +1,5 @@
 import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import showResults from '../Show';
 import FileUploadDefault from './components/FileUploadDefault';
@@ -28,4 +27,4 @@ FileUpload.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(FileUpload);
+export default (FileUpload);

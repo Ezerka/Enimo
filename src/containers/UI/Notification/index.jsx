@@ -2,7 +2,6 @@
 import React, {PureComponent} from 'react';
 import {Col, Container, Row} from 'reactstrap';
 import NotificationSystem from 'rc-notification';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import BasicNotifications from './components/BasicNotifications';
 import ImageNotifications from './components/ImageNotifications';
@@ -89,4 +88,4 @@ class Notifications extends PureComponent {
     }
 }
 
-export default translate('common')(Notifications);
+export default (Notifications);

@@ -1,6 +1,5 @@
 import React from 'react';
 import {Button, ButtonToolbar, Card, CardBody, Col} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 const StatusButtons = ({t}) => (
@@ -58,4 +57,4 @@ StatusButtons.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(StatusButtons);
+export default (StatusButtons);

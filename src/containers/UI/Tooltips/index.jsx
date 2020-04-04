@@ -1,6 +1,5 @@
 import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import TooltipTop from './components/TooltipTop';
 import TooltipBottom from './components/TooltipBottom';
@@ -39,4 +38,4 @@ TooltipsPopovers.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(TooltipsPopovers);
+export default (TooltipsPopovers);

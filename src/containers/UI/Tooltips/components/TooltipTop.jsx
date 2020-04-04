@@ -1,6 +1,5 @@
 import React from 'react';
 import {Button, ButtonToolbar, Card, CardBody, Col, UncontrolledTooltip} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 const TooltipTop = ({t}) => (
@@ -30,4 +29,4 @@ TooltipTop.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(TooltipTop);
+export default (TooltipTop);

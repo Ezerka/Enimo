@@ -1,6 +1,5 @@
 import React from 'react';
 import {Card, CardBody, Col, Progress} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 const MultisizedProgressBars = ({t}) => (
@@ -36,4 +35,4 @@ MultisizedProgressBars.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(MultisizedProgressBars);
+export default (MultisizedProgressBars);

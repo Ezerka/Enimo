@@ -1,6 +1,5 @@
 import React, {PureComponent} from 'react';
 import {Col, Container, Row} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 
 class HistoryDashboard extends PureComponent {
@@ -22,4 +21,4 @@ class HistoryDashboard extends PureComponent {
     }
 }
 
-export default translate('common')(HistoryDashboard);
+export default (HistoryDashboard);

@@ -1,6 +1,5 @@
 import React from 'react';
 import {Badge, Table} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import Panel from '../../../../shared/components/Panel';
 
@@ -89,4 +88,4 @@ RecentOrders.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(RecentOrders);
+export default (RecentOrders);

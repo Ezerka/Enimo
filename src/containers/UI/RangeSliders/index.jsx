@@ -1,6 +1,5 @@
 import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import SliderWithoutParams from './components/SliderWithoutParams';
 import SliderStartPoint from './components/SliderStartPoint';
@@ -32,4 +31,4 @@ RangeSliders.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(RangeSliders);
+export default (RangeSliders);

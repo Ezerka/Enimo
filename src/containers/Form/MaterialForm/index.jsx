@@ -1,6 +1,5 @@
 import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import AnimatedLineForm from './components/AnimatedLineForm';
 import showResults from '../Show';
@@ -26,4 +25,4 @@ MaterialForm.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(MaterialForm);
+export default (MaterialForm);

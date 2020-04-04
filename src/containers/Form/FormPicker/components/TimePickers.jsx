@@ -2,7 +2,6 @@ import React from 'react';
 import {Card, CardBody, Col} from 'reactstrap';
 import {Field, reduxForm} from 'redux-form';
 import PropTypes from 'prop-types';
-import {translate} from 'react-i18next';
 import renderTimePickerField from '../../../../shared/components/form/TimePicker';
 
 const TimePickers = ({handleSubmit, t}) => (
@@ -40,4 +39,4 @@ TimePickers.propTypes = {
 };
 export default reduxForm({
     form: 'time_picker_form', // a unique identifier for this form
-})(translate('common')(TimePickers));
+})((TimePickers));

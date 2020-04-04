@@ -1,5 +1,4 @@
 import React, {PureComponent} from 'react';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import {Progress} from 'reactstrap';
 import Panel from '../../../../shared/components/Panel';
@@ -64,4 +63,4 @@ SocialMarketing.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(SocialMarketing);
+export default (SocialMarketing);

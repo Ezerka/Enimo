@@ -1,7 +1,6 @@
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
 import {Legend, Pie, PieChart, ResponsiveContainer, Tooltip} from 'recharts';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import ArrowDownwardIcon from 'mdi-react/ArrowDownwardIcon';
 import Panel from '../../../../shared/components/Panel';
@@ -82,4 +81,4 @@ Reservations.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(Reservations);
+export default (Reservations);

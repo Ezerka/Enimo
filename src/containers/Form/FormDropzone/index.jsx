@@ -1,7 +1,6 @@
 import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
 import PropTypes from 'prop-types';
-import {translate} from 'react-i18next';
 import showResults from '../Show';
 import DropFiles from './components/DropFiles';
 
@@ -26,4 +25,4 @@ FormDropzone.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(FormDropzone);
+export default (FormDropzone);

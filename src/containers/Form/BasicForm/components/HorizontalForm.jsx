@@ -4,7 +4,6 @@ import {Field, reduxForm} from 'redux-form';
 import EyeIcon from 'mdi-react/EyeIcon';
 import EmailIcon from 'mdi-react/EmailIcon';
 import AccountSearchIcon from 'mdi-react/AccountSearchIcon';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import renderFileInputField from '../../../../shared/components/form/FileInput';
 import renderSelectField from '../../../../shared/components/form/Select';
@@ -197,4 +196,4 @@ class HorizontalForm extends PureComponent {
 
 export default reduxForm({
     form: 'horizontal_form', // a unique identifier for this form
-})(translate('common')(HorizontalForm));
+})((HorizontalForm));

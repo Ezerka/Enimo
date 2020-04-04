@@ -9,7 +9,6 @@ import {
     XAxis,
     YAxis
 } from 'recharts';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import {Table} from 'reactstrap';
 import Panel from '../../../../shared/components/Panel';
@@ -142,4 +141,4 @@ class Occupancy extends PureComponent {
     }
 }
 
-export default translate('common')(Occupancy);
+export default (Occupancy);

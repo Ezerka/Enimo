@@ -1,6 +1,5 @@
 import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
-import {translate} from 'react-i18next';
 import LiveStatusText from './components/LiveStatusText';
 import UsageStatusText from './components/UsageStatusText'
 import MachineConsumption from './components/MachineConsumption'
@@ -87,5 +86,5 @@ class Appliance1 extends React.Component {
     }
 }
 
-export default translate('common')(Appliance1);
+export default (Appliance1);
 

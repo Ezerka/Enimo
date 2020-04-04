@@ -1,7 +1,6 @@
 import React from 'react';
 import {Button, ButtonToolbar, Card, CardBody, Col} from 'reactstrap';
 import {Field, reduxForm} from 'redux-form';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import renderDropZoneField from '../../../../shared/components/form/DropZone';
 
@@ -41,4 +40,4 @@ FileUploadCustomHeight.propTypes = {
 
 export default reduxForm({
     form: 'file_upload_custom_height', // a unique identifier for this form
-})(translate('common')(FileUploadCustomHeight));
+})((FileUploadCustomHeight));

@@ -1,6 +1,5 @@
 import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import DefaultControls from './components/DefaultControls';
 import ColoredControls from './components/ColoredControls';
@@ -32,4 +31,4 @@ CheckFormControls.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(CheckFormControls);
+export default (CheckFormControls);

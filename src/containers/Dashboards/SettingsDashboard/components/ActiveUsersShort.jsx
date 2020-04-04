@@ -1,6 +1,5 @@
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import TrendingUpIcon from 'mdi-react/TrendingUpIcon';
 import {Card, CardBody, Col, Progress} from 'reactstrap';
@@ -31,4 +30,4 @@ ActiveUsersShort.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(ActiveUsersShort);
+export default (ActiveUsersShort);

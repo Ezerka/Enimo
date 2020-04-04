@@ -1,6 +1,5 @@
 import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import DefaultProgressBar from './components/DefaultProgressBar';
 import DataProgressBar from './components/DataProgressBar';
@@ -35,4 +34,4 @@ ProgressBars.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(ProgressBars);
+export default (ProgressBars);

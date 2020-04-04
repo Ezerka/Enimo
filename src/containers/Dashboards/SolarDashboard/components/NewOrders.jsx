@@ -5,7 +5,6 @@ import {DropdownItem, DropdownMenu, DropdownToggle, Table, UncontrolledDropdown}
 import DotsHorizontalIcon from 'mdi-react/DotsHorizontalIcon';
 import ChevronDownIcon from 'mdi-react/ChevronDownIcon';
 import {Link} from 'react-router-dom';
-import {translate} from 'react-i18next';
 import classNames from 'classnames';
 import {NewOrderTableProps} from '../../../../shared/prop-types/TablesProps';
 
@@ -141,4 +140,4 @@ NewOrders.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(NewOrders);
+export default (NewOrders);

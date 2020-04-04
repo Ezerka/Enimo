@@ -1,5 +1,4 @@
 import React from 'react';
-import {translate} from 'react-i18next';
 import PropTypes from 'prop-types';
 import Panel from '../../../../shared/components/Panel';
 import ToDo from './ToDo';
@@ -29,4 +28,4 @@ MyTodos.propTypes = {
     t: PropTypes.func.isRequired,
 };
 
-export default translate('common')(MyTodos);
+export default (MyTodos);
