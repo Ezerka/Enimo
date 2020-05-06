@@ -3,7 +3,7 @@
 
 ### Description
 
-The World is in a transition phase and energy is central to it. India has been responsible for almost 10% of the increase in global energy demand since 2000 pushing the country’s share in global demand up to **5.7%** in 2013 from **4.4%** at the beginning of the century. The primary energy demand in India has grown from about **441 Mtoe** (Million tonne of oil equivalent) in 2000 to about **775 Mtoe** in 2013. This demand is expected to increase to about **1250** (estimated by International Energy Agency) to **1500** (estimated in the Integrated Energy Policy Report) million toe in 2030. One of the biggest problems faced in India today is the challenge caused by increased energy consumption due to the over population.
+The World is in a transition phase and energy is central to it. India has been responsible for almost 10% of the increase in global energy demand since 2000 pushing the country’s share in global demand up to **5.7%** in 2013 from **4.4%** at the beginning of the century. The primary energy demand in India has grown from about **441 Mtoe** (Million tonne of oil equivalent) in 2000 to about **775 Mtoe** in 2013. This demand is expected to increase to about **1250** (estimated by International Energy Agency) to **1500** ( estimated in the Integrated Energy Policy Report) million toe in 2030. One of the biggest problems faced in India today is the challenge caused by increased energy consumption due to the over population.
 
 
 ### Problem Statement:
